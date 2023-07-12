@@ -1,5 +1,4 @@
 const TableCatalogContent = () => {
-
-    return
-}
+  return;
+};
 export default TableCatalogContent;
