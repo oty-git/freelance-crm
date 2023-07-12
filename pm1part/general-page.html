@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+  <link rel="stylesheet" href="css/vendor.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/f982e94d70.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="css/upload.css">
+</head>
+<body>
+	<div class="overlay"></div>
+	<header>
+    <div class="container-fluid">
+      <div class="outer__header">
+        <div class="left__header">
+          <div class="logo__wrapper">
+            <a href="#">
+              <img src="images/logo.svg" alt="logo">
+              CRM NAME
+            </a>
+          </div>
+          <div class="search__header">
+            <form action="">
+              <input type="text" placeholder="Search in CRM">
+              <input type="submit" value="">
+            </form>
+          </div>
+        </div>
+        <div class="right__header">
+          <div class="header__communication">
+            <a href="#">
+              <img src="images/svg/svg-sprite/symbol/communication.svg" alt="communication">
+              <span class="communication__title">3</span>
+            </a>
+          </div>
+          <div class="header__notification">
+             <div class="dropdown notifications-dropdown js-dropdown" data-dropdown="notifications">
+                    <div class="dropdown__toggle notifications-dropdown__toggle" data-dropdown-toggle="notifications">
+                      <div class="notifications-dropdown__toggle-icon">
+                        <svg class="svg-icon svg-icon--surfie-green" width="24" height="25">
+                          <use href="images/svg/svg-sprite/symbol/sprite.svg#bell" x="0" y="0"></use>
+                        </svg>
+                      </div>
+                      <div class="notifications-dropdown__toggle-title">4</div>
+                    </div>
+                    <div class="dropdown__box notifications-dropdown__box">
+                      <div class="notifications-dropdown__wrap">
+                        <div class="notifications-dropdown__header">
+                          <div class="content-header">
+                            <div class="content-header__title">
+                              <h3>Notifications</h3>
+                            </div>
+                            <div class="content-header__close">
+                              <div class="close" data-dropdown-close="notifications">
+                                <svg class="svg-icon svg-icon--alto" width="15" height="15">
+                                  <use href="images/svg/svg-sprite/symbol/sprite.svg#close" x="0" y="0"></use>
+                                </svg>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="custom-scroll notifications-dropdown__scroll" data-simplebar="data-simplebar">
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam consequuntur dolore deserunt earum, nihil neque quibusdam sapiente, praesentium quisquam eaque expedita autem? Ab distinctio placeat quos velit adipisci harum libero.</p>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam consequuntur dolore deserunt earum, nihil neque quibusdam sapiente, praesentium quisquam eaque expedita autem? Ab distinctio placeat quos velit adipisci harum libero.</p>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam consequuntur dolore deserunt earum, nihil neque quibusdam sapiente, praesentium quisquam eaque expedita autem? Ab distinctio placeat quos velit adipisci harum libero.</p>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam consequuntur dolore deserunt earum, nihil neque quibusdam sapiente, praesentium quisquam eaque expedita autem? Ab distinctio placeat quos velit adipisci harum libero.</p>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam consequuntur dolore deserunt earum, nihil neque quibusdam sapiente, praesentium quisquam eaque expedita autem? Ab distinctio placeat quos velit adipisci harum libero.</p>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam consequuntur dolore deserunt earum, nihil neque quibusdam sapiente, praesentium quisquam eaque expedita autem? Ab distinctio placeat quos velit adipisci harum libero.</p>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam consequuntur dolore deserunt earum, nihil neque quibusdam sapiente, praesentium quisquam eaque expedita autem? Ab distinctio placeat quos velit adipisci harum libero.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          </div>
+          <div class="language__picker">
+            <div class="select js-select select--transparent header__dropdown-lang">
+                        <button class="select__label js-select-label" data-selected="lt" type="button"><img src="images/icons/planet.svg" /><span>LT</span>
+                        </button>
+                        <div class="select__dropdown js-select-dropdown">
+                          <div class="custom-scroll select__dropdown-scroll" data-select-simplebar="data-select-simplebar">
+                            <div class="select__options js-select-options">
+                              <div class="select__option js-select-option" data-option="en"><img src="images/icons/planet.svg" /><span>EN</span></div>
+                              <div class="select__option js-select-option" data-option="lt"><img src="images/icons/planet.svg" /><span>LT</span></div>
+                            </div>
+                          </div>
+                        </div>
+                        <input class="select__input js-select-input" type="hidden" />
+                      </div>
+          </div>
+          <div class="profile__header">
+            <div class="dropdown user-dropdown js-dropdown" data-dropdown="user">
+                    <div class="dropdown__toggle user-dropdown__toggle" data-dropdown-toggle="user">
+                      <div class="user-dropdown__toggle-avatar">
+                        <div class="avatar">
+                          <figure></figure>
+                        </div>
+                      </div>
+                      <div class="user-dropdown__toggle-name">Justas</div>
+                      <div class="user-dropdown__toggle-chevron">
+                        <svg class="svg-icon svg-icon--surfie-green" width="9" height="5">
+                          <use href="images/svg/svg-sprite/symbol/sprite.svg#chevron-down" x="0" y="0"></use>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="dropdown__box user-dropdown__box">
+                      <div class="user-dropdown-menu">
+                        <div class="user-dropdown-menu__items">
+                          <div class="user-dropdown-menu__item"><a class="user-dropdown-menu__link " href="settings-page.html">
+                              <div class="user-dropdown-menu__icon">
+                                <svg class="svg-icon svg-icon--surfie-green" width="18" height="18">
+                                  <use href="images/svg/svg-sprite/symbol/sprite.svg#cog" x="0" y="0"></use>
+                                </svg>
+                              </div>
+                              <div class="user-dropdown-menu__title">Settings</div>
+                            </a></div>
+                          <div class="user-dropdown-menu__item"><a class="user-dropdown-menu__link" href="#">
+                              <div class="user-dropdown-menu__icon">
+                                <svg class="svg-icon svg-icon--surfie-green" width="18" height="14">
+                                  <use href="images/svg/svg-sprite/symbol/sprite.svg#log-out" x="0" y="0"></use>
+                                </svg>
+                              </div>
+                              <div class="user-dropdown-menu__title">Log Out</div>
+                            </a></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          </div>
+        </div>
+        <div class="menu__button--header">
+          <a href="#">
+            <span></span>
+            <span></span>
+            <span></span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+	<div class="side__menu">
+    <div class="head__side">
+      <ul>
+        <li>
+          <a href="freelancer-opportunities.html">
+            <span class="image__side"><img src="images/headicon1.svg" alt="headicon"></span>
+            Opportunities
+            <span class="numb__span">3</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="menu__main--side">
+      <p>Workpage</p>
+      <ul>
+        <li>
+          <a href="projects-page.html">
+            <span class="image__side"><img src="images/headicon2.svg" alt="headicon"></span>
+            My projects
+            <span class="numb__span">12</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="image__side"><img src="images/headicon3.svg" alt="headicon"></span>
+            My tasks
+            <span class="numb__span">11</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="image__side"><img src="images/headicon4.svg" alt="headicon"></span>
+            My inquiries
+            <span class="numb__span">5</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="image__side"><img src="images/headicon5.svg" alt="headicon"></span>
+            My orders
+            <span class="numb__span">2</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="menu__main--side">
+      <ul>
+        <li>
+          <a href="employers-page.html">
+            <span class="image__side"><img src="images/headicon6.svg" alt="headicon"></span>
+            Employers
+            
+          </a>
+        </li>
+        <li >
+          <a href="create-client.html">
+            <span class="image__side"><img src="images/headicon8.svg" alt="headicon"></span>
+            Clients
+            
+          </a>
+        </li>
+        <li >
+          <a href="employers-page.html">
+            <span class="image__side"><img src="images/headicon9.svg" alt="headicon"></span>
+            Statistics
+            
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="menu__main--side">
+      <ul>
+        <li>
+          <a href="#">
+            <span class="image__side"><img src="images/headicon10.svg" alt="headicon"></span>
+            Accounting
+            
+          </a>
+        </li>
+        <li >
+          <a href="#">
+            <span class="image__side"><img src="images/headicon11.svg" alt="headicon"></span>
+            KOT tools
+            
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+	<div class="content__main">
+		<div class="menu__small">
+			<a href="#"><i class="fas fa-ellipsis-h"></i></a>
+		</div>
+    <div class="settings-page__wrap">
+      <div class="container">
+        <div class="settings-page__heading">
+          <div class="settings-page__heading-title">
+            <a href="#"><svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M-0.000112319 6L6.46143 0L6.46143 12L-0.000112319 6Z" fill="#0E7D7D"/>
+            </svg></a><h2 class="text-surfie-green">Girteka, UAB <span>#221</span></h2>
+          </div>
+          <div class="settings-page__heading-status">
+            <h3>Account status: </h3>
+            <div class="approved__wrapper">
+              <span class="text-caribbean-green">Approved</span><span class="icon-inline">
+                <svg class="svg-icon svg-icon--caribbean-green" width="15" height="13">
+                  <use href="images/svg/svg-sprite/symbol/sprite.svg#check" x="0" y="0"></use>
+                </svg></span>
+            </div>
+          </div>
+          <div class="upload__block service__creation">
+            <div class="create__service">
+              <div class="btn-add">
+                <div class="btn-add__header">
+                    <div class="btn-add__input btn-add__input_add">
+                        <label  class="btn-add__input-label">Create
+                        </label>
+                    </div>
+                    <div class="btn-add__icon"></div>
+                </div>
+
+                <div class="btn-add__dropdown">
+                    <ul class="btn-add__list">
+                        <li class="btn-add__item">
+                            <div class="btn-add__input">
+                                <label for="file-upload-2" class="btn-add__input-label">From computer
+                                </label>
+                                <input id="file-upload-2" type="file">
+                            </div>
+                        </li>
+                        <li class="btn-add__item">
+                            <a href="" class="btn-add__link btn-add__link_text">Create text</a>
+                        </li>
+                        <li class="btn-add__item">
+                            <a href="" class="btn-add__link btn-add__link_url">By URL</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+          </div>
+          <!-- <div class="settings-page__heading-alert">
+            <div class="alert avatar--surfie-green">
+              <div class="alert__icon"><img src="images/icons/check-circle.svg" alt="icon" /></div>
+              <div class="alert__title">Changes was saved successfuly</div>
+              <div class="alert__close">
+                <div class="close">
+                  <svg class="svg-icon svg-icon--surfie-green" width="15" height="15">
+                    <use href="images/svg/svg-sprite/symbol/sprite.svg#close" x="0" y="0"></use>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div> -->
+        </div>
+        <div class="settings-page__catalog">
+          <div class="catalog">
+            <div class="catalog__header">
+              <div class="catalog__tabs tabs js-tabs">
+                <div class="catalog__tab js-tabs-tab is-active" data-tab="general">
+                  <div class="catalog__tab-title">General</div>
+                </div>
+                <div class="catalog__tab js-tabs-tab " data-tab="education">
+                  <div class="catalog__tab-title">Team</div>
+                </div>
+              </div>
+            </div>
+            <div class="catalog__box">
+              <div class="catalog__content">
+                <div class="catalog__content-item tabs__content js-tabs-content is-active" data-content="general">
+                  <div class="catalog__content-wrap">
+                    <div class="row">
+                      <div class="w-full">
+                        <div class="mb-30">
+                          <div class="column-group column-group--sm column-group--justify-items-center profile__head settings__head">
+                            <div class="left__profile">
+                              <div class="column-group__item">
+                              <div class="edit-avatar">
+                                <div class="avatar avatar--xl">
+                                  <figure style="background-image:url('images/user/avatar.jpg')"></figure>
+                                </div>
+                                <div class="edit-avatar__button">
+                                  <button class="button button--round button--alabaster" type="button" data-modal-open="edit-avatar-modal">
+                                    <svg class="svg-icon svg-icon--surfie-green" width="18" height="16">
+                                      <use href="images/svg/svg-sprite/symbol/sprite.svg#camera" x="0" y="0"></use>
+                                    </svg>
+                                  </button>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="column-group__item name__profile">
+                              <div class="head__title--profile">
+                                <h6>Lukas Baranauskas</h6>
+                                <p>Member since: 2015-04-12</p>
+                              </div>
+                              <div class="parent__company--button">
+                                <a href="#">Parent company <span><img src="images/icons/plus.svg" alt="plus"></span></a>
+                              </div>
+                            </div>
+                            </div>
+                            <div class="settings__dropdown">
+                              <div class="settings__button">
+                                <a href="#">
+                                  <span><img src="images/icons/gearicon.svg" alt="gearicon"></span>
+                                  Settings
+                                </a>
+                              </div>
+                              <div class="settings__dropdown--wrapper" style="display:none;">
+                                <div class="elem__settings--dropdown dropdown__container">
+                                  <p>Market:</p>
+                                  <div class="select js-select">
+                                    <button class="select__label js-select-label" data-selected="select1" type="button"><span>Select 1</span>
+                                    </button>
+                                    <div class="select__dropdown js-select-dropdown">
+                                      <div class="custom-scroll select__dropdown-scroll" data-select-simplebar>
+                                        <div class="select__options js-select-options">
+                                          <div class="select__option js-select-option" data-option="select1"><span>Select 1</span></div>
+                                          <div class="select__option js-select-option" data-option="select2"><span>Select 2</span></div>
+                                          <div class="select__option js-select-option" data-option="select3"><span>Select 3</span></div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <input class="select__input js-select-input" type="hidden">
+                                  </div>
+                                </div>
+                                <div class="elem__settings--dropdown">
+                                  <p>Pricelist:</p>
+
+                                </div>
+                                <div class="elem__settings--dropdown">
+                                  <p>Currency:</p>
+                                  <span>%40</span>
+                                </div>
+                                <div class="elem__settings--dropdown">
+                                  <p>Responsible:</p>
+                                  <div class="dropdown__responsible">
+                                    <div class="elem__responsible">
+                                      <div class="responsible__avatar">
+                                        <img src="images/icons/responsible1.png" alt="responsible">
+                                      </div>
+                                      <p>Justas Jasaitis</p>
+                                    </div>
+                                    <div class="elem__responsible">
+                                      <div class="responsible__avatar">
+                                        <img src="images/icons/responsible1.png" alt="responsible">
+                                      </div>
+                                      <p>Justas Jasaitis</p>
+                                    </div>
+                                    <div class="elem__responsible">
+                                      <div class="responsible__avatar">
+                                        <img src="images/icons/responsible1.png" alt="responsible">
+                                      </div>
+                                      <p>Justas Jasaitis</p>
+                                    </div>
+                                    <div class="elem__responsible">
+                                      <div class="responsible__avatar">
+                                        <img src="images/icons/responsible1.png" alt="responsible">
+                                      </div>
+                                      <p>Justas Jasaitis</p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                     <div class="details__container">
+                       <div class="element__details">
+                         <div class="details__picker">
+                           <div class="details__radio">
+                             <div class="form-group">
+                                <div class="form-group__header">
+                                  <h5>Details #1 </h5>
+                                </div>
+                                <div class="row-group">
+                                  <div class="row-group__item">
+                                    <label class="radio">
+                                      <div class="radio__box">
+                                        <input class="radio__input" type="radio" value="yes" name="portal__group" data-radio-toggle=""><span class="radio__checkmark"></span>
+                                      </div><span class="radio__name">Primary</span>
+                                    </label>
+                                  </div>
+                                </div>
+                           </div>
+                         </div>
+                              <div class="details__list">
+                                <div class="elem__details">
+                                  <div class="details__info">
+                                    <p>Name</p>
+                                  </div>
+                                  <div class="details__info--main">
+                                    <p>Girteka, UAB</p>
+                                  </div>
+                                </div>
+                                <div class="elem__details">
+                                  <div class="details__info">
+                                    <p>Company code</p>
+                                  </div>
+                                  <div class="details__info--main">
+                                    <p>21312312231</p>
+                                  </div>
+                                </div>
+                                <div class="elem__details">
+                                  <div class="details__info">
+                                    <p>VAT</p>
+                                  </div>
+                                  <div class="details__info--main">
+                                    <p>LT-3213123</p>
+                                  </div>
+                                </div>
+                                <div class="elem__details">
+                                  <div class="details__info">
+                                    <p>Email</p>
+                                  </div>
+                                  <div class="details__info--main">
+                                    <p>Justasjasitis99@gmail.com</p>
+                                  </div>
+                                </div>
+                                <div class="elem__details">
+                                  <div class="details__info">
+                                    <p>Market</p>
+                                  </div>
+                                  <div class="details__info--main">
+                                    <p>Lithuania</p>
+                                  </div>
+                                </div>
+                                <div class="elem__details">
+                                  <div class="details__info">
+                                    <p>Address:</p>
+                                  </div>
+                                  <div class="details__info--main">
+                                    <p><span>Adres 5g. </span></p>
+                                  </div>
+                                </div>
+                                <div class="elem__details">
+                                  <div class="details__info">
+                                    <p>Additional info:</p>
+                                  </div>
+                                  <div class="details__info--main">
+                                    <p></p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                         </div>
+                         <div class="element__details">
+                         <div class="details__picker">
+                           <div class="details__radio">
+                             <div class="form-group">
+                                <div class="form-group__header">
+                                  <h5>Details #2 </h5>
+                                </div>
+                                <div class="row-group">
+                                  <div class="row-group__item">
+                                    <label class="radio">
+                                      <div class="radio__box">
+                                        <input class="radio__input" type="radio" value="yes" name="portal__group" data-radio-toggle=""><span class="radio__checkmark"></span>
+                                      </div><span class="radio__name">Primary</span>
+                                    </label>
+                                  </div>
+                                </div>
+                           </div>
+                         </div>
+                              <div class="details__list">
+                                <div class="elem__details">
+                                  <div class="details__info">
+                                    <p>Name</p>
+                                  </div>
+                                  <div class="details__info--main">
+                                    <p>Girteka, UAB</p>
+                                  </div>
+                                </div>
+                                <div class="elem__details">
+                                  <div class="details__info">
+                                    <p>Company code</p>
+                                  </div>
+                                  <div class="details__info--main">
+                                    <p>21312312231</p>
+                                  </div>
+                                </div>
+                                <div class="elem__details">
+                                  <div class="details__info">
+                                    <p>VAT</p>
+                                  </div>
+                                  <div class="details__info--main">
+                                    <p>LT-3213123</p>
+                                  </div>
+                                </div>
+                                <div class="elem__details">
+                                  <div class="details__info">
+                                    <p>Email</p>
+                                  </div>
+                                  <div class="details__info--main">
+                                    <p>Justasjasitis99@gmail.com</p>
+                                  </div>
+                                </div>
+                                <div class="elem__details">
+                                  <div class="details__info">
+                                    <p>Market</p>
+                                  </div>
+                                  <div class="details__info--main">
+                                    <p>Lithuania</p>
+                                  </div>
+                                </div>
+                                <div class="elem__details">
+                                  <div class="details__info">
+                                    <p>Address:</p>
+                                  </div>
+                                  <div class="details__info--main">
+                                    <p><span>Adres 5g. </span></p>
+                                  </div>
+                                </div>
+                                <div class="elem__details">
+                                  <div class="details__info">
+                                    <p>Additional info:</p>
+                                  </div>
+                                  <div class="details__info--main">
+                                    <p></p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                         </div>
+                       </div>
+                     </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+                <div class="catalog__content-item tabs__content js-tabs-content " data-content="education">
+                  <div class="catalog__content-wrap">
+                    <div class="row">
+                     
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+       <div class="modal password-change-modal" data-modal="password-change-modal">
+      <div class="password-change-modal__wrap">
+        <div class="password-change-modal__title">
+          <h3>Change password</h3>
+        </div>
+        <div class="password-change-modal__text">
+          <p>Cnanging password information Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div class="password-change-modal__form">
+          <form class="form">
+            <div class="form__line">
+              <div class="input-animation js-input-animation input-animation--required">
+                <label class="input-animation__label" for="oldPassword">Old password </label>
+                <input class="input input--border-alto" type="password" id="oldPassword">
+              </div>
+            </div>
+            <div class="form__line">
+              <div class="input-animation js-input-animation input-animation--required">
+                <label class="input-animation__label" for="newPassword">Email</label>
+                <input class="input input--border-alto" type="password" id="newPassword">
+              </div>
+            </div>
+            <div class="form__line">
+              <a class="link" href="#">Forgot password?
+              </a>
+            </div>
+            <div class="form__line">
+              <div class="password-change-modal__buttons">
+                <div class="button-group button-group--column">
+                  <button class="button button--surfie-green button-group__button" type="button" data-modal-open="password-change-success-modal">Confirm new password
+                  </button>
+                  <button class="button button--transparent button-group__button" type="button" data-modal-close="password-change-modal">Cancel
+                  </button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="modal password-change-success-modal" data-modal="password-change-success-modal">
+      <div class="modal__close" data-modal-close="password-change-success-modal">
+        <div class="close">
+          <svg class="svg-icon svg-icon--alto" width="20" height="20">
+            <use href="images/svg/svg-sprite/symbol/sprite.svg#close" x="0" y="0"></use>
+          </svg>
+        </div>
+      </div>
+      <div class="password-change-success-modal__wrap">
+        <div class="password-change-success-modal__icon"><img src="images/icons/check-circle.svg" alt="check" /></div>
+        <div class="password-change-success-modal__title">
+          <h3 class="text-surfie-green">Your password has been changed sucsessfully</h3>
+        </div>
+        <div class="password-change-success-modal__text">
+          <p>Your new password is:</p>
+        </div>
+        <div class="password-change-success-modal__password">
+          <div class="palette">
+            <p class="font-bold">6151651656156116</p>
+          </div>
+        </div>
+        <div class="password-change-success-modal__button">
+          <button class="button button--border-surfie-green" type="button" data-modal-close="password-change-success-modal">OK !
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="modal edit-avatar-modal js-edit-avatar-modal" data-modal="edit-avatar-modal">
+      <div class="modal__close" data-modal-close="edit-avatar-modal">
+        <div class="close">
+          <svg class="svg-icon svg-icon--alto" width="20" height="20">
+            <use href="images/svg/svg-sprite/symbol/sprite.svg#close" x="0" y="0"></use>
+          </svg>
+        </div>
+      </div>
+      <div class="edit-avatar-modal__body">
+        <div class="edit-avatar-tool js-edit-avatar-tool">
+          <div class="edit-avatar-tool__title">
+            <h3>Renew profile image:</h3>
+          </div>
+          <label class="edit-avatar-tool__placeholder">
+            <div class="edit-avatar-tool__placeholder-wrap">
+              <input class="input--alabaster input--hidden" type="file" accept="image/*">
+              <h4 class="font-semibold text-alto">Upload a new image</h4>
+            </div>
+          </label>
+          <div class="edit-avatar-tool__image-box"><img class="edit-avatar-tool__image" src="images/user/avatar.jpg" alt="avatar" /></div>
+          <div class="edit-avatar-tool__change">
+            <h5>Change size <span class="text-surfie-green edit-avatar-tool__number">1</span></h5>
+          </div>
+          <div class="edit-avatar-tool__range">
+            <div class="input-range js-input-range">
+              <div class="input-range__minus">
+                <svg class="svg-icon svg-icon--surfie-green" width="14" height="2">
+                  <use href="images/svg/svg-sprite/symbol/sprite.svg#minus" x="0" y="0"></use>
+                </svg>
+              </div>
+              <div class="input-range__wrap">
+                <input class="input input--alabaster input-range__input edit-avatar-tool__range-input" type="range" value="0">
+                <div class="input-range__line"></div>
+              </div>
+              <div class="input-range__plus">
+                <svg class="svg-icon svg-icon--surfie-green" width="14" height="14">
+                  <use href="images/svg/svg-sprite/symbol/sprite.svg#plus" x="0" y="0"></use>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="edit-avatar-tool__buttons">
+            <div class="edit-avatar-tool__buttons-left">
+              <button class="button button--transparent edit-avatar-tool__delete" type="button">Delete current photo
+              </button>
+            </div>
+            <div class="edit-avatar-tool__buttons-right">
+              <div class="button-group">
+                <label class="button button--alabaster button-group__button edit-avatar-tool__upload">
+                  <input class="input--alabaster input--hidden" type="file" accept="image/*"><span>Upload new</span>
+                  <svg class="svg-icon svg-icon--surfie-green button__icon" width="10" height="10">
+                    <use href="images/svg/svg-sprite/symbol/sprite.svg#plus" x="0" y="0"></use>
+                  </svg>
+                </label>
+                <button class="button button--border-surfie-green button-group__button" type="button" data-modal-close="edit-avatar-modal">Apply
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+	</div>
+  <div class="modal__create" style="display:none;">
+    <a href="#"><img src="images/svg/svg-sprite/symbol/closemodal.svg" alt="closemodal"></a>
+    <div class="inner__modal">
+      
+      <form action="">
+        <h2>Create price</h2>
+        <div class="row__form">
+          <div class="form-group">
+              <div class="form-group__header">
+                <p>Service</p>
+              </div>
+              <div class="select js-select">
+                <button class="select__label js-select-label" data-selected="select1" type="button"><span>Translation</span>
+                </button>
+                <div class="select__dropdown js-select-dropdown">
+                  <div class="custom-scroll select__dropdown-scroll" data-select-simplebar="">
+                    <div class="select__options js-select-options">
+                      <div class="select__option js-select-option is-selected" data-option="select1"><span>Translation1</span></div>
+                      <div class="select__option js-select-option" data-option="select2"><span>Translation2</span></div>
+                      <div class="select__option js-select-option" data-option="select3"><span>Translation3</span></div>
+                    </div>
+                  </div>
+                </div>
+                <input class="select__input js-select-input" type="hidden" value="select1">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="form-group__header">
+                <p>Matt name</p>
+              </div>
+              <div class="select js-select">
+                <button class="select__label js-select-label" data-selected="select1" type="button"><span>DHL</span>
+                </button>
+                <div class="select__dropdown js-select-dropdown">
+                  <div class="custom-scroll select__dropdown-scroll" data-select-simplebar="">
+                    <div class="select__options js-select-options">
+                      <div class="select__option js-select-option is-selected" data-option="select1"><span>Translation1</span></div>
+                      <div class="select__option js-select-option" data-option="select2"><span>Translation2</span></div>
+                      <div class="select__option js-select-option" data-option="select3"><span>Translation3</span></div>
+                    </div>
+                  </div>
+                </div>
+                <input class="select__input js-select-input" type="hidden" value="select1">
+              </div>
+            </div>
+            <div class="form-group">
+                <div class="row-group row-group--align-center row-group--0">
+                  <div class="row-group__item price__item--form">
+                    <span>€</span>
+                    <input class="input input--alabaster" type="text" placeholder="PRICE"   style="min-width:70px;">
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="row__form">
+          <div class="form-group">
+              <div class="form-group__header">
+                <p>Languages:</p>
+              </div>
+              <div class="row-group__item row-group__item--flex-1">
+                    <div class="select js-select">
+                      <button class="select__label js-select-label" data-selected="lt" type="button"><span>From</span>
+                      </button>
+                      <div class="select__dropdown js-select-dropdown">
+                        <div class="select__search">
+                          <input class="input input--border-alto input--sm js-select-search" type="text" placeholder="Type something">
+                        </div>
+                        <div class="custom-scroll select__dropdown-scroll" data-select-simplebar>
+                          <div class="select__options js-select-options">
+                            <div class="select__option js-select-option" data-option="lt"><span>Lithianian</span></div>
+                            <div class="select__option js-select-option" data-option="en"><span>English</span></div>
+                            <div class="select__option js-select-option" data-option="fr"><span>French</span></div>
+                          </div>
+                        </div>
+                      </div>
+                      <input class="select__input js-select-input" type="hidden">
+                    </div>
+                  </div>
+            </div>
+            <div class="form-group">
+              <div class="row-group__item row-group__item--flex-1">
+                  <div class="select js-select">
+                    <button class="select__label js-select-label" data-selected="lt" type="button"><span>To</span>
+                    </button>
+                    <div class="select__dropdown js-select-dropdown">
+                      <div class="select__search">
+                        <input class="input input--border-alto input--sm js-select-search" type="text" placeholder="Type something">
+                      </div>
+                      <div class="custom-scroll select__dropdown-scroll" data-select-simplebar>
+                        <div class="select__options js-select-options">
+                          <div class="select__option js-select-option" data-option="lt"><span>Lithianian</span></div>
+                          <div class="select__option js-select-option" data-option="en"><span>English</span></div>
+                          <div class="select__option js-select-option" data-option="fr"><span>French</span></div>
+                        </div>
+                      </div>
+                    </div>
+                    <input class="select__input js-select-input" type="hidden">
+                  </div>
+                </div>
+            </div>
+          </div>
+          <div class="wrapper__row">
+            <div class="row__form row__form--group">
+          <div class="form-group">
+              <div class="form-group__header">
+                <p>Urgency:</p>
+              </div>
+              <div class="select js-select">
+                <button class="select__label js-select-label" data-selected="select1" type="button"><span>Lating</span>
+                </button>
+                <div class="select__dropdown js-select-dropdown">
+                  <div class="custom-scroll select__dropdown-scroll" data-select-simplebar="">
+                    <div class="select__options js-select-options">
+                      <div class="select__option js-select-option is-selected" data-option="select1"><span>From</span></div>
+                      <div class="select__option js-select-option" data-option="select2"><span>From1</span></div>
+                      <div class="select__option js-select-option" data-option="select3"><span>From2</span></div>
+                    </div>
+                  </div>
+                </div>
+                <input class="select__input js-select-input" type="hidden" value="select1">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="form-group__header">
+                <p>Time frame</p>
+              </div>
+              <div class="select js-select">
+                <button class="select__label js-select-label" data-selected="select1" type="button"><span>-1 hours</span>
+                </button>
+                <div class="select__dropdown js-select-dropdown">
+                  <div class="custom-scroll select__dropdown-scroll" data-select-simplebar="">
+                    <div class="select__options js-select-options">
+                      <div class="select__option js-select-option is-selected" data-option="select1"><span>From</span></div>
+                      <div class="select__option js-select-option" data-option="select2"><span>From1</span></div>
+                      <div class="select__option js-select-option" data-option="select3"><span>From2</span></div>
+                    </div>
+                  </div>
+                </div>
+                <input class="select__input js-select-input" type="hidden" value="select1">
+              </div>
+            </div>
+            <div class="float__span">
+                <span>=</span>
+              </div>
+            <div class="form-group fee__group">
+              <div class="form-group__header">
+                <p>+ fee / -%</p>
+              </div>
+               <input class="input input--alabaster fee__input" readonly="" value="-15 %" type="text" maxlength="5"  style="min-width:70px;">
+            </div>
+        </div>
+           <a href="#" class="add__more"><span><img src="images/svg/svg-sprite/symbol/plus.svg" alt=""></span>Create one more</a>
+          </div>
+
+
+          <div class="wrapper__row wrapper__smaller">
+            <div class="row__form row__form--group">
+          <div class="form-group">
+              <div class="form-group__header">
+                <p>Repeatitions:</p>
+              </div>
+              <input class="input input--alabaster repeatitions__field" readonly="" value="30%" type="text" maxlength="5"  style="min-width:70px;">
+            </div>
+            <div class="float__span">
+                <span>=</span>
+              </div>
+            <div class="form-group">
+              <div class="form-group__header">
+                <p>Time frame</p>
+              </div>
+              <input class="input input--alabaster timeframe__field" readonly="" value="50%" type="text" maxlength="5"  style="min-width:70px;">
+            </div>
+        </div>
+           <a href="#" class="add__more"><span><img src="images/svg/svg-sprite/symbol/plus.svg" alt=""></span>Create one more</a>
+          </div>
+          <div class="controls__create">
+            <input type="submit" value="Create" class="button button--fluid button--surfie-green">
+            <button class="button button--border-surfie-green">Cancel</button>
+          </div>
+        </div>
+            
+      </form>
+    </div>
+  </div>
+	<script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+  <script src="scripts/main.js"></script>
+  <script src="scripts/vendor.js"></script>
+  <script src="scripts/custom.js"></script>
+</body>
+</html>

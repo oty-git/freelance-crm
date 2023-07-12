@@ -1,0 +1,1462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+  <link rel="stylesheet" href="css/vendor.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/f982e94d70.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="css/upload.css">
+  <link rel="stylesheet" href="css/updated.css">
+</head>
+<body>
+  <div class="float__table--content"></div>
+	<div class="overlay"></div>
+	<header>
+    <div class="container-fluid">
+      <div class="outer__header">
+        <div class="left__header">
+          <div class="logo__wrapper">
+            <a href="#">
+              <img src="images/logo.svg" alt="logo">
+              CRM NAME
+            </a>
+          </div>
+          <div class="search__header">
+            <form action="">
+              <input type="text" placeholder="Search in CRM">
+              <input type="submit" value="">
+            </form>
+          </div>
+        </div>
+        <div class="right__header">
+          <div class="header__communication">
+            <a href="#">
+              <img src="images/svg/svg-sprite/symbol/communication.svg" alt="communication">
+              <span class="communication__title">3</span>
+            </a>
+          </div>
+          <div class="header__notification">
+             <div class="dropdown notifications-dropdown js-dropdown" data-dropdown="notifications">
+                    <div class="dropdown__toggle notifications-dropdown__toggle" data-dropdown-toggle="notifications">
+                      <div class="notifications-dropdown__toggle-icon">
+                        <svg class="svg-icon svg-icon--surfie-green" width="24" height="25">
+                          <use href="images/svg/svg-sprite/symbol/sprite.svg#bell" x="0" y="0"></use>
+                        </svg>
+                      </div>
+                      <div class="notifications-dropdown__toggle-title">4</div>
+                    </div>
+                    <div class="dropdown__box notifications-dropdown__box">
+                      <div class="notifications-dropdown__wrap">
+                        <div class="notifications-dropdown__header">
+                          <div class="content-header">
+                            <div class="content-header__title">
+                              <h3>Notifications</h3>
+                            </div>
+                            <div class="content-header__close">
+                              <div class="close" data-dropdown-close="notifications">
+                                <svg class="svg-icon svg-icon--alto" width="15" height="15">
+                                  <use href="images/svg/svg-sprite/symbol/sprite.svg#close" x="0" y="0"></use>
+                                </svg>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="custom-scroll notifications-dropdown__scroll" data-simplebar="data-simplebar">
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam consequuntur dolore deserunt earum, nihil neque quibusdam sapiente, praesentium quisquam eaque expedita autem? Ab distinctio placeat quos velit adipisci harum libero.</p>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam consequuntur dolore deserunt earum, nihil neque quibusdam sapiente, praesentium quisquam eaque expedita autem? Ab distinctio placeat quos velit adipisci harum libero.</p>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam consequuntur dolore deserunt earum, nihil neque quibusdam sapiente, praesentium quisquam eaque expedita autem? Ab distinctio placeat quos velit adipisci harum libero.</p>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam consequuntur dolore deserunt earum, nihil neque quibusdam sapiente, praesentium quisquam eaque expedita autem? Ab distinctio placeat quos velit adipisci harum libero.</p>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam consequuntur dolore deserunt earum, nihil neque quibusdam sapiente, praesentium quisquam eaque expedita autem? Ab distinctio placeat quos velit adipisci harum libero.</p>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam consequuntur dolore deserunt earum, nihil neque quibusdam sapiente, praesentium quisquam eaque expedita autem? Ab distinctio placeat quos velit adipisci harum libero.</p>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam consequuntur dolore deserunt earum, nihil neque quibusdam sapiente, praesentium quisquam eaque expedita autem? Ab distinctio placeat quos velit adipisci harum libero.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          </div>
+          <div class="language__picker">
+            <div class="select js-select select--transparent header__dropdown-lang">
+                        <button class="select__label js-select-label" data-selected="lt" type="button"><img src="images/icons/planet.svg" /><span>LT</span>
+                        </button>
+                        <div class="select__dropdown js-select-dropdown">
+                          <div class="custom-scroll select__dropdown-scroll" data-select-simplebar="data-select-simplebar">
+                            <div class="select__options js-select-options">
+                              <div class="select__option js-select-option" data-option="en"><img src="images/icons/planet.svg" /><span>EN</span></div>
+                              <div class="select__option js-select-option" data-option="lt"><img src="images/icons/planet.svg" /><span>LT</span></div>
+                            </div>
+                          </div>
+                        </div>
+                        <input class="select__input js-select-input" type="hidden" />
+                      </div>
+          </div>
+          <div class="profile__header">
+            <div class="dropdown user-dropdown js-dropdown" data-dropdown="user">
+                    <div class="dropdown__toggle user-dropdown__toggle" data-dropdown-toggle="user">
+                      <div class="user-dropdown__toggle-avatar">
+                        <div class="avatar">
+                          <figure></figure>
+                        </div>
+                      </div>
+                      <div class="user-dropdown__toggle-name">Justas</div>
+                      <div class="user-dropdown__toggle-chevron">
+                        <svg class="svg-icon svg-icon--surfie-green" width="9" height="5">
+                          <use href="images/svg/svg-sprite/symbol/sprite.svg#chevron-down" x="0" y="0"></use>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="dropdown__box user-dropdown__box">
+                      <div class="user-dropdown-menu">
+                        <div class="user-dropdown-menu__items">
+                          <div class="user-dropdown-menu__item"><a class="user-dropdown-menu__link " href="settings-page.html">
+                              <div class="user-dropdown-menu__icon">
+                                <svg class="svg-icon svg-icon--surfie-green" width="18" height="18">
+                                  <use href="images/svg/svg-sprite/symbol/sprite.svg#cog" x="0" y="0"></use>
+                                </svg>
+                              </div>
+                              <div class="user-dropdown-menu__title">Settings</div>
+                            </a></div>
+                          <div class="user-dropdown-menu__item"><a class="user-dropdown-menu__link" href="#">
+                              <div class="user-dropdown-menu__icon">
+                                <svg class="svg-icon svg-icon--surfie-green" width="18" height="14">
+                                  <use href="images/svg/svg-sprite/symbol/sprite.svg#log-out" x="0" y="0"></use>
+                                </svg>
+                              </div>
+                              <div class="user-dropdown-menu__title">Log Out</div>
+                            </a></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          </div>
+        </div>
+        <div class="menu__button--header">
+          <a href="#">
+            <span></span>
+            <span></span>
+            <span></span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+	<div class="side__menu">
+		<div class="head__side">
+			<ul>
+				<li>
+					<a href="freelancer-opportunities.html">
+            <span class="image__side"><img src="images/headicon1.svg" alt="headicon"></span>
+            Opportunities
+            <span class="numb__span">3</span>
+          </a>
+				</li>
+			</ul>
+		</div>
+		<div class="menu__main--side">
+			<p>Workpage</p>
+			<ul>
+				<li>
+					<a href="projects-page.html">
+						<span class="image__side"><img src="images/headicon2.svg" alt="headicon"></span>
+						My projects
+						<span class="numb__span">12</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<span class="image__side"><img src="images/headicon3.svg" alt="headicon"></span>
+						My tasks
+						<span class="numb__span">11</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<span class="image__side"><img src="images/headicon4.svg" alt="headicon"></span>
+						My inquiries
+						<span class="numb__span">5</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<span class="image__side"><img src="images/headicon5.svg" alt="headicon"></span>
+						My orders
+						<span class="numb__span">2</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="menu__main--side">
+			<ul>
+				<li>
+					<a href="employers-page.html">
+						<span class="image__side"><img src="images/headicon6.svg" alt="headicon"></span>
+						Employers
+						
+					</a>
+				</li>
+        <li >
+          <a href="create-client.html">
+            <span class="image__side"><img src="images/headicon8.svg" alt="headicon"></span>
+            Clients
+            
+          </a>
+        </li>
+        <li >
+          <a href="employers-page.html">
+            <span class="image__side"><img src="images/headicon9.svg" alt="headicon"></span>
+            Statistics
+            
+          </a>
+        </li>
+			</ul>
+		</div>
+    <div class="menu__main--side">
+      <ul>
+        <li>
+          <a href="#">
+            <span class="image__side"><img src="images/headicon10.svg" alt="headicon"></span>
+            Accounting
+            
+          </a>
+        </li>
+        <li >
+          <a href="#">
+            <span class="image__side"><img src="images/headicon11.svg" alt="headicon"></span>
+            KOT tools
+            
+          </a>
+        </li>
+      </ul>
+    </div>
+	</div>
+	<div class="content__main">
+		<div class="menu__small">
+			<a href="#"><i class="fas fa-ellipsis-h"></i></a>
+		</div>
+
+	   <div class="employers-page__wrap">
+      <div class="container">
+      	<div class="employers-page__heading task__heading">
+		          <div class="task__heading">
+                <div class="task__group task__group--active">
+                  <a href="#"><svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M-0.000112319 6L6.46143 0L6.46143 12L-0.000112319 6Z" fill="#0E7D7D"></path>
+                    </svg></a>
+                  <h2>Task group name</h2>
+                  <span>#1</span>
+                </div>
+              </div>
+              <div class="upload__block">
+              <div class="wrap-btn-add">
+                            <div class="btn-add job__creation--button">
+                                <div class="btn-add__header">
+                                    <a href="create-order-v2.html" class="btn-add__input btn-add__input_add">
+                                        <label  class="btn-add__input-label ">Create job
+                                        </label>
+                                    </a>
+                                    <div class="btn-add__icon"></div>
+                                </div>
+                                <div class="btn-add__dropdown">
+                                    <ul class="btn-add__list">
+                                      <li class="btn-add__item">
+                                            <a href="" class="btn-add__link  plus__order">Create order</a>
+                                        </li>
+                                         <li class="btn-add__item">
+                                            <a href="" class="btn-add__link  plus__order">Create delivery</a>
+                                        </li>
+                                         <li class="btn-add__item">
+                                            <a href="" class="btn-add__link  plus__order">Create invoice</a>
+                                        </li>
+                                         
+                                         <li class="btn-add__item">
+                                            <a href="" class="btn-add__link  cancel__order">Cancel task</a>
+                                        </li>
+                                         <li class="btn-add__item">
+                                            <a href="" class="btn-add__link  delete__order">Delete</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+             </div>
+		        </div>
+            <div class="source__box">
+              <div class="source__tables--container">
+                    <div class="order__table">
+                    <div class="title__order--table">
+                      <h2>Order</h2>
+                    </div>
+                    <div class="table__wrapper">
+                      <table class="table__common transparent__table table__lines" cellspacing="0">
+                        <tr>
+                          <th></th>
+                          <th><h4 class="weight__text">Service</h4></th>
+                          <th><h4 class="weight__text">Languages</h4></th>
+                          <th>  <h4 class="weight__text">Deadline</h4></th>
+                          <th><h4 class="weight__text">Quantity</h4></th>
+                          <th><h4 class="weight__text">Measure</h4></th>
+                          <th><h4 class="weight__text">Rate</h4></th>
+                          <th><h4 class="weight__text">Sum</h4></th>
+                          <th><h4 class="weight__text">Total</h4></th>
+                          <th class="show__row"></th>
+                        </tr>
+                        <tr>
+                          <td>
+                            <div class="check__input check__main--child invisible__check">
+                              <label class="checkbox js-table-checkbox">
+                                <div class="checkbox__box">
+                                  <input class="checkbox__input" type="checkbox"><span class="checkbox__checkmark"></span>
+                                </div>
+                              </label>
+                            </div>
+                          </td>
+                          <td>
+                            <div class="service__name">
+                              <p class="small__text weight__text">Translation (standard)</p>
+                              <span class="small__text weight__text transparent__text">From platform</span>
+                            </div>
+                          </td>
+                          <td>
+                            <div class="droppable__languages">
+                            <div class="languages__inner">
+                              <p>EN-LT</p>
+                              <div class="languages__flags">
+                                <div class="flag__elem">
+                                  <img src="images/flag1.svg" alt="flag">
+                                </div>
+                                <div class="flag__elem">
+                                  <img src="images/flag2.svg" alt="flag">
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          </td>
+                          <td>
+                            <p class="small__text weight__text">2019-04-06 <span class="transparent__text">23:20</span></p>
+                          </td>
+                          <td>
+                            <p class="small__text">4.26</p>
+                          </td>
+                          <td>
+                            <p class="small__text">St. p.</p>
+                          </td>
+                          <td>
+                            <p class="small__text">8 EUR</p>
+                          </td>
+                          <td>
+                            <p class="small__text">50 EUR</p>
+                          </td>
+                          <td>
+                            <p class="small__text active__weight--text">61 EUR</p>
+                          </td>
+                          <td class="show__row">
+                            <div class="show__main" data-expand="expand1">
+                              <p>Files</p>
+                              <span class="arrow__show">
+                                <svg width="9" height="5" viewBox="0 0 9 5" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.5 5L0 0H9L4.5 5Z" fill="#3F88C5"></path></svg>
+                              </span>
+                            </div>
+                          </td>
+                        </tr>
+
+                        <tr data-expand="expand1" style="display:none;">
+                          <td colspan="10" class="expandable__row">
+                            <table class="file__table"> 
+                              <tr>
+                                <td>
+                                  <div class="source__main">
+                                    <div class="check__input check__main--child ">
+                                      <label class="checkbox js-table-checkbox">
+                                        <div class="checkbox__box">
+                                          <input class="checkbox__input" type="checkbox"><span class="checkbox__checkmark"></span>
+                                        </div>
+                                      </label>
+                                    </div>
+                                    <div class="source__file">
+                                      <span><img src="images/source1.svg" alt="source"></span>
+                                      <p>samplelongnameoffile.txt</p>
+                                    </div>
+                                    <div class="source__picker">
+                          <span>our:</span>
+                          <p style="display:none;">4322</p>
+                          <input type="text" value="4322">
+                          <div class="small__drop custom__select" >
+                            <div class="select js-select">
+                                <button class="select__label js-select-label" data-selected="select1" type="button" data-drop-info="drop1"><span>c.w.h</span>
+                                </button>
+                                <div class="select__dropdown js-select-dropdown" data-drop-info="drop1">
+                                  <div class="custom-scroll select__dropdown-scroll" data-select-simplebar="">
+                                    <div class="select__options js-select-options">
+                                      <div class="select__option js-select-option is-selected" data-option="select1"><span>USD</span></div>
+                                      <div class="select__option js-select-option" data-option="select2"><span>EUR</span></div>
+                                      <div class="select__option js-select-option" data-option="select3"><span>EUR</span></div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <input class="select__input js-select-input" type="hidden" value="select1">
+                              </div>
+                          </div>
+                        </div>
+                                  </div>
+                                </td>
+                                <td class="trash__row">
+                                  <div class="remove__source">
+                                    <a href="#"><img src="images/trashicon.svg" alt="trashicon"></a>
+                                  </div>
+                                </td>
+                              </tr>
+
+                              <tr>
+                                <td>
+                                  <div class="source__main">
+                                    <div class="check__input check__main--child ">
+                                      <label class="checkbox js-table-checkbox">
+                                        <div class="checkbox__box">
+                                          <input class="checkbox__input" type="checkbox"><span class="checkbox__checkmark"></span>
+                                        </div>
+                                      </label>
+                                    </div>
+                                    <div class="source__file">
+                                      <span><img src="images/source1.svg" alt="source"></span>
+                                      <p>samplelongnameoffile.txt</p>
+                                    </div>
+                                    <div class="source__picker">
+                          <span>our:</span>
+                          <p>4322</p>
+                          <input type="text" value="4322" style="display:none;">
+                          <div class="small__drop custom__select inactive__select" >
+                            <div class="select js-select">
+                                <button class="select__label js-select-label" data-selected="select1" type="button" data-drop-info="drop2"><span>c.w.h</span>
+                                </button>
+                                <div class="select__dropdown js-select-dropdown" data-drop-info="drop2">
+                                  <div class="custom-scroll select__dropdown-scroll" data-select-simplebar="">
+                                    <div class="select__options js-select-options">
+                                      <div class="select__option js-select-option is-selected" data-option="select1"><span>USD</span></div>
+                                      <div class="select__option js-select-option" data-option="select2"><span>EUR</span></div>
+                                      <div class="select__option js-select-option" data-option="select3"><span>EUR</span></div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <input class="select__input js-select-input" type="hidden" value="select1">
+                              </div>
+                          </div>
+                        </div>
+                                  </div>
+                                </td>
+                                <td class="trash__row">
+                                  <div class="remove__source">
+                                    <a href="#"><img src="images/trashicon.svg" alt="trashicon"></a>
+                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+
+
+
+
+
+                        <tr>
+                          <td>
+                            <div class="check__input check__main--child invisible__check">
+                              <label class="checkbox js-table-checkbox">
+                                <div class="checkbox__box">
+                                  <input class="checkbox__input" type="checkbox"><span class="checkbox__checkmark"></span>
+                                </div>
+                              </label>
+                            </div>
+                          </td>
+                          <td>
+                            <div class="service__name">
+                              <p class="small__text weight__text">Translation (standard)</p>
+                              <span class="small__text weight__text transparent__text">From platform</span>
+                            </div>
+                          </td>
+                          <td>
+                            <div class="droppable__languages">
+                            <div class="languages__inner">
+                              <p>EN-LT</p>
+                              <div class="languages__flags">
+                                <div class="flag__elem">
+                                  <img src="images/flag1.svg" alt="flag">
+                                </div>
+                                <div class="flag__elem">
+                                  <img src="images/flag2.svg" alt="flag">
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          </td>
+                          <td>
+                            <p class="small__text weight__text">2019-04-06 <span class="transparent__text">23:20</span></p>
+                          </td>
+                          <td>
+                            <p class="small__text">4.26</p>
+                          </td>
+                          <td>
+                            <p class="small__text">St. p.</p>
+                          </td>
+                          <td>
+                            <p class="small__text">8 EUR</p>
+                          </td>
+                          <td>
+                            <p class="small__text">50 EUR</p>
+                          </td>
+                          <td>
+                            <p class="small__text active__weight--text">61 EUR</p>
+                          </td>
+                          <td class="show__row">
+                            <div class="show__main" data-expand="expand2">
+                              <p>Files</p>
+                              <span class="arrow__show">
+                                <svg width="9" height="5" viewBox="0 0 9 5" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.5 5L0 0H9L4.5 5Z" fill="#3F88C5"></path></svg>
+                              </span>
+                            </div>
+                          </td>
+                        </tr>
+
+
+
+                        <tr data-expand="expand2" style="display:none;">
+                          <td colspan="10" class="expandable__row">
+                            <table class="file__table"> 
+                              <tr>
+                                <td>
+                                  <div class="source__main">
+                                    <div class="check__input check__main--child ">
+                                      <label class="checkbox js-table-checkbox">
+                                        <div class="checkbox__box">
+                                          <input class="checkbox__input" type="checkbox"><span class="checkbox__checkmark"></span>
+                                        </div>
+                                      </label>
+                                    </div>
+                                    <div class="source__file">
+                                      <span><img src="images/source1.svg" alt="source"></span>
+                                      <p>samplelongnameoffile.txt</p>
+                                    </div>
+                                    <div class="source__picker">
+                          <span>our:</span>
+                          <p style="display:none;">4322</p>
+                          <input type="text" value="4322">
+                          <div class="small__drop custom__select" >
+                            <div class="select js-select">
+                                <button class="select__label js-select-label" data-selected="select1" type="button" data-drop-info="drop3"><span>c.w.h</span>
+                                </button>
+                                <div class="select__dropdown js-select-dropdown" data-drop-info="drop3">
+                                  <div class="custom-scroll select__dropdown-scroll" data-select-simplebar="">
+                                    <div class="select__options js-select-options">
+                                      <div class="select__option js-select-option is-selected" data-option="select1"><span>USD</span></div>
+                                      <div class="select__option js-select-option" data-option="select2"><span>EUR</span></div>
+                                      <div class="select__option js-select-option" data-option="select3"><span>EUR</span></div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <input class="select__input js-select-input" type="hidden" value="select1">
+                              </div>
+                          </div>
+                        </div>
+                                  </div>
+                                </td>
+                                <td class="trash__row">
+                                  <div class="remove__source">
+                                    <a href="#"><img src="images/trashicon.svg" alt="trashicon"></a>
+                                  </div>
+                                </td>
+                              </tr>
+
+                              <tr>
+                                <td>
+                                  <div class="source__main">
+                                    <div class="check__input check__main--child ">
+                                      <label class="checkbox js-table-checkbox">
+                                        <div class="checkbox__box">
+                                          <input class="checkbox__input" type="checkbox"><span class="checkbox__checkmark"></span>
+                                        </div>
+                                      </label>
+                                    </div>
+                                    <div class="source__file">
+                                      <span><img src="images/source1.svg" alt="source"></span>
+                                      <p>samplelongnameoffile.txt</p>
+                                    </div>
+                                    <div class="source__picker">
+                          <span>our:</span>
+                          <p>4322</p>
+                          <input type="text" value="4322" style="display:none;">
+                          <div class="small__drop custom__select inactive__select" >
+                            <div class="select js-select">
+                                <button class="select__label js-select-label" data-selected="select1" type="button" data-drop-info="drop4"><span>c.w.h</span>
+                                </button>
+                                <div class="select__dropdown js-select-dropdown" data-drop-info="drop4">
+                                  <div class="custom-scroll select__dropdown-scroll" data-select-simplebar="">
+                                    <div class="select__options js-select-options">
+                                      <div class="select__option js-select-option is-selected" data-option="select1"><span>USD</span></div>
+                                      <div class="select__option js-select-option" data-option="select2"><span>EUR</span></div>
+                                      <div class="select__option js-select-option" data-option="select3"><span>EUR</span></div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <input class="select__input js-select-input" type="hidden" value="select1">
+                              </div>
+                          </div>
+                        </div>
+                                  </div>
+                                </td>
+                                <td class="trash__row">
+                                  <div class="remove__source">
+                                    <a href="#"><img src="images/trashicon.svg" alt="trashicon"></a>
+                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                    </div>
+                    </div>
+
+
+
+                    <div class="jobs__table--container">
+                        <div class="title__jobs--table">
+                          <h2>Jobs</h2>
+                        </div>
+                        <div class="jobs__table--box">
+                          <div class="table__wrapper">
+                            <table class="table__common transparent__table table__lines">
+                              <tr>
+                                <td>
+                                  <div class="job__element">
+                                    <div class="check__input check__main--child invisible__check">
+                                    <label class="checkbox js-table-checkbox">
+                                      <div class="checkbox__box">
+                                        <input class="checkbox__input" type="checkbox"><span class="checkbox__checkmark"></span>
+                                      </div>
+                                    </label>
+                                  </div>
+                                      <p class="weight__text">#1</p>
+                                    <div class="client__element">
+                                      <a href="general-page.html" class="profile__client underline__profile">
+                                        <div class="client__image">
+                                          <img src="images/workersmall.png" alt="clientimage">
+                                        </div>
+                                        <div class="client__info">
+                                          <p>Lukas Baranauskas</p>
+                                        </div>
+                                      </a>
+                                    </div>
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="jobs__table--services">
+                                    <div class="elem__service">
+                                      <img src="images/service1.svg" alt="sevice">
+                                    </div>
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="droppable__languages">
+                                    <div class="languages__inner">
+                                      <p>EN-LT</p>
+                                      <div class="languages__flags">
+                                        <div class="flag__elem">
+                                          <img src="images/flag1.svg" alt="flag">
+                                        </div>
+                                        <div class="flag__elem">
+                                          <img src="images/flag2.svg" alt="flag">
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="time__job">
+                                    <div class="time__job--info today__time">
+                                      <p>Today 12:30</p>
+                                    </div>
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="status__table--wrapper">
+                                      <div class="main__status--table processing__status filled__status">
+                                      <p class="processing__label"><span><img src="images/processingicon.svg" alt="processin"></span> Processing</p>
+                                      <span class="status__arrow">
+                                        <svg width="9" height="5" viewBox="0 0 9 5" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.5 5L0 0H9L4.5 5Z" fill="#3F88C5"></path></svg>
+                                      </span>
+                                    </div>
+                                  </div>
+                                </td>
+                                <td class="show__row">
+                                  <div class="show__main" data-expand="expand3">
+                                    <p>Files</p>
+                                    <span class="arrow__show">
+                                      <svg width="9" height="5" viewBox="0 0 9 5" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.5 5L0 0H9L4.5 5Z" fill="#3F88C5"></path></svg>
+                                    </span>
+                                  </div>
+                                </td>
+                              </tr>
+
+                              <tr data-expand="expand3" style="display:none;">
+                          <td colspan="10" class="expandable__row">
+                            <table class="file__table"> 
+                              <tr>
+                                <td>
+                                  <div class="source__main">
+                                    <div class="check__input check__main--child ">
+                                      <label class="checkbox js-table-checkbox">
+                                        <div class="checkbox__box">
+                                          <input class="checkbox__input" type="checkbox"><span class="checkbox__checkmark"></span>
+                                        </div>
+                                      </label>
+                                    </div>
+                                    <div class="source__file">
+                                      <span><img src="images/source1.svg" alt="source"></span>
+                                      <p>samplelongnameoffile.txt</p>
+                                    </div>
+                                    <div class="source__picker">
+                          <span>our:</span>
+                          <p style="display:none;">4322</p>
+                          <input type="text" value="4322">
+                          <div class="small__drop custom__select" >
+                            <div class="select js-select">
+                                <button class="select__label js-select-label" data-selected="select1" type="button" data-drop-info="drop5"><span>c.w.h</span>
+                                </button>
+                                <div class="select__dropdown js-select-dropdown" data-drop-info="drop5">
+                                  <div class="custom-scroll select__dropdown-scroll" data-select-simplebar="">
+                                    <div class="select__options js-select-options">
+                                      <div class="select__option js-select-option is-selected" data-option="select1"><span>USD</span></div>
+                                      <div class="select__option js-select-option" data-option="select2"><span>EUR</span></div>
+                                      <div class="select__option js-select-option" data-option="select3"><span>EUR</span></div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <input class="select__input js-select-input" type="hidden" value="select1">
+                              </div>
+                          </div>
+                        </div>
+                                  </div>
+                                </td>
+                                <td class="trash__row">
+                                  <div class="remove__source">
+                                    <a href="#"><img src="images/trashicon.svg" alt="trashicon"></a>
+                                  </div>
+                                </td>
+                              </tr>
+
+                              <tr>
+                                <td>
+                                  <div class="source__main">
+                                    <div class="check__input check__main--child ">
+                                      <label class="checkbox js-table-checkbox">
+                                        <div class="checkbox__box">
+                                          <input class="checkbox__input" type="checkbox"><span class="checkbox__checkmark"></span>
+                                        </div>
+                                      </label>
+                                    </div>
+                                    <div class="source__file">
+                                      <span><img src="images/source1.svg" alt="source"></span>
+                                      <p>samplelongnameoffile.txt</p>
+                                    </div>
+                                    <div class="source__picker">
+                          <span>our:</span>
+                          <p>4322</p>
+                          <input type="text" value="4322" style="display:none;">
+                          <div class="small__drop custom__select inactive__select" >
+                            <div class="select js-select">
+                                <button class="select__label js-select-label" data-selected="select1" type="button" data-drop-info="drop6"><span>c.w.h</span>
+                                </button>
+                                <div class="select__dropdown js-select-dropdown" data-drop-info="drop6">
+                                  <div class="custom-scroll select__dropdown-scroll" data-select-simplebar="">
+                                    <div class="select__options js-select-options">
+                                      <div class="select__option js-select-option is-selected" data-option="select1"><span>USD</span></div>
+                                      <div class="select__option js-select-option" data-option="select2"><span>EUR</span></div>
+                                      <div class="select__option js-select-option" data-option="select3"><span>EUR</span></div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <input class="select__input js-select-input" type="hidden" value="select1">
+                              </div>
+                          </div>
+                        </div>
+                                  </div>
+                                </td>
+                                <td class="trash__row">
+                                  <div class="remove__source">
+                                    <a href="#"><img src="images/trashicon.svg" alt="trashicon"></a>
+                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+
+
+
+                        <tr>
+                                <td>
+                                  <div class="job__element">
+                                    <div class="check__input check__main--child invisible__check">
+                                    <label class="checkbox js-table-checkbox">
+                                      <div class="checkbox__box">
+                                        <input class="checkbox__input" type="checkbox"><span class="checkbox__checkmark"></span>
+                                      </div>
+                                    </label>
+                                  </div>
+                                      <p class="weight__text">#1</p>
+                                    <div class="client__element">
+                                      <a href="general-page.html" class="profile__client underline__profile">
+                                        <div class="client__image">
+                                          <img src="images/workersmall.png" alt="clientimage">
+                                        </div>
+                                        <div class="client__info">
+                                          <p>Lukas Baranauskas</p>
+                                        </div>
+                                      </a>
+                                    </div>
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="jobs__table--services">
+                                    <div class="elem__service">
+                                      <img src="images/service1.svg" alt="sevice">
+                                    </div>
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="droppable__languages">
+                                    <div class="languages__inner">
+                                      <p>EN-LT</p>
+                                      <div class="languages__flags">
+                                        <div class="flag__elem">
+                                          <img src="images/flag1.svg" alt="flag">
+                                        </div>
+                                        <div class="flag__elem">
+                                          <img src="images/flag2.svg" alt="flag">
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="time__job">
+                                    <div class="time__job--info">
+                                      <p>10 days left</p>
+                                    </div>
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="status__table--wrapper">
+                                      <div class="main__status--table processing__status filled__status">
+                                      <p class="processing__label"><span><img src="images/processingicon.svg" alt="processin"></span> Processing</p>
+                                      <span class="status__arrow">
+                                        <svg width="9" height="5" viewBox="0 0 9 5" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.5 5L0 0H9L4.5 5Z" fill="#3F88C5"></path></svg>
+                                      </span>
+                                    </div>
+                                  </div>
+                                </td>
+                                <td class="show__row">
+                                  <div class="show__main" data-expand="expand4">
+                                    <p>Files</p>
+                                    <span class="arrow__show">
+                                      <svg width="9" height="5" viewBox="0 0 9 5" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.5 5L0 0H9L4.5 5Z" fill="#3F88C5"></path></svg>
+                                    </span>
+                                  </div>
+                                </td>
+                              </tr>
+
+
+
+
+                                 <tr data-expand="expand4" style="display:none;">
+                          <td colspan="10" class="expandable__row">
+                            <table class="file__table"> 
+                              <tr>
+                                <td>
+                                  <div class="source__main">
+                                    <div class="check__input check__main--child ">
+                                      <label class="checkbox js-table-checkbox">
+                                        <div class="checkbox__box">
+                                          <input class="checkbox__input" type="checkbox"><span class="checkbox__checkmark"></span>
+                                        </div>
+                                      </label>
+                                    </div>
+                                    <div class="source__file">
+                                      <span><img src="images/source1.svg" alt="source"></span>
+                                      <p>samplelongnameoffile.txt</p>
+                                    </div>
+                                    <div class="source__picker">
+                          <span>our:</span>
+                          <p style="display:none;">4322</p>
+                          <input type="text" value="4322">
+                          <div class="small__drop custom__select" >
+                            <div class="select js-select">
+                                <button class="select__label js-select-label" data-selected="select1" type="button" data-drop-info="drop7"><span>c.w.h</span>
+                                </button>
+                                <div class="select__dropdown js-select-dropdown" data-drop-info="drop7">
+                                  <div class="custom-scroll select__dropdown-scroll" data-select-simplebar="">
+                                    <div class="select__options js-select-options">
+                                      <div class="select__option js-select-option is-selected" data-option="select1"><span>USD</span></div>
+                                      <div class="select__option js-select-option" data-option="select2"><span>EUR</span></div>
+                                      <div class="select__option js-select-option" data-option="select3"><span>EUR</span></div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <input class="select__input js-select-input" type="hidden" value="select1">
+                              </div>
+                          </div>
+                        </div>
+                                  </div>
+                                </td>
+                                <td class="trash__row">
+                                  <div class="remove__source">
+                                    <a href="#"><img src="images/trashicon.svg" alt="trashicon"></a>
+                                  </div>
+                                </td>
+                              </tr>
+
+                              <tr>
+                                <td>
+                                  <div class="source__main">
+                                    <div class="check__input check__main--child ">
+                                      <label class="checkbox js-table-checkbox">
+                                        <div class="checkbox__box">
+                                          <input class="checkbox__input" type="checkbox"><span class="checkbox__checkmark"></span>
+                                        </div>
+                                      </label>
+                                    </div>
+                                    <div class="source__file">
+                                      <span><img src="images/source1.svg" alt="source"></span>
+                                      <p>samplelongnameoffile.txt</p>
+                                    </div>
+                                    <div class="source__picker">
+                          <span>our:</span>
+                          <p>4322</p>
+                          <input type="text" value="4322" style="display:none;">
+                          <div class="small__drop custom__select inactive__select" >
+                            <div class="select js-select">
+                                <button class="select__label js-select-label" data-selected="select1" type="button" data-drop-info="drop8"><span>c.w.h</span>
+                                </button>
+                                <div class="select__dropdown js-select-dropdown" data-drop-info="drop8">
+                                  <div class="custom-scroll select__dropdown-scroll" data-select-simplebar="">
+                                    <div class="select__options js-select-options">
+                                      <div class="select__option js-select-option is-selected" data-option="select1"><span>USD</span></div>
+                                      <div class="select__option js-select-option" data-option="select2"><span>EUR</span></div>
+                                      <div class="select__option js-select-option" data-option="select3"><span>EUR</span></div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <input class="select__input js-select-input" type="hidden" value="select1">
+                              </div>
+                          </div>
+                        </div>
+                                  </div>
+                                </td>
+                                <td class="trash__row">
+                                  <div class="remove__source">
+                                    <a href="#"><img src="images/trashicon.svg" alt="trashicon"></a>
+                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+
+
+
+                        <tr>
+                                <td>
+                                  <div class="job__element">
+                                    <div class="check__input check__main--child invisible__check">
+                                    <label class="checkbox js-table-checkbox">
+                                      <div class="checkbox__box">
+                                        <input class="checkbox__input" type="checkbox"><span class="checkbox__checkmark"></span>
+                                      </div>
+                                    </label>
+                                  </div>
+                                      <p class="weight__text">#1</p>
+                                    <div class="client__element">
+                                      <a href="general-page.html" class="profile__client underline__profile">
+                                        <div class="client__image">
+                                          <img src="images/workersmall.png" alt="clientimage">
+                                        </div>
+                                        <div class="client__info">
+                                          <p>Lukas Baranauskas</p>
+                                        </div>
+                                      </a>
+                                    </div>
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="jobs__table--services">
+                                    <div class="elem__service">
+                                      <img src="images/service1.svg" alt="sevice">
+                                    </div>
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="droppable__languages">
+                                    <div class="languages__inner">
+                                      <p>EN-LT</p>
+                                      <div class="languages__flags">
+                                        <div class="flag__elem">
+                                          <img src="images/flag1.svg" alt="flag">
+                                        </div>
+                                        <div class="flag__elem">
+                                          <img src="images/flag2.svg" alt="flag">
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="time__job">
+                                    <div class="time__job--info due__time" data-time-dropdown="time1">
+                                      <p><span class="icon__due"><img src="images/warnwhite.svg" alt="warnwhite"></span> Due soon <span class="due__arrow"><img src="images/whiteicondrop.svg" alt="white"></span></p>
+                                    </div>
+                                    <div class="time__job--dropdown" data-time-dropdown="time1">
+                                      <p>OD: <span class="time__inn">2019-04-06</span> 23:20</p>
+                                      <p>WD: <span class="time__inn">2019-04-06</span> 23:20 <span class="edit__time"><img src="images/editgrey.svg" alt=""></span></p>
+                                    </div>
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="status__table--wrapper">
+                                      <div class="main__status--table processing__status filled__status">
+                                      <p class="processing__label"><span><img src="images/processingicon.svg" alt="processin"></span> Processing</p>
+                                      <span class="status__arrow">
+                                        <svg width="9" height="5" viewBox="0 0 9 5" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.5 5L0 0H9L4.5 5Z" fill="#3F88C5"></path></svg>
+                                      </span>
+                                    </div>
+                                  </div>
+                                </td>
+                                <td class="show__row">
+                                  <div class="show__main" data-expand="expand5">
+                                    <p>Files</p>
+                                    <span class="arrow__show">
+                                      <svg width="9" height="5" viewBox="0 0 9 5" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.5 5L0 0H9L4.5 5Z" fill="#3F88C5"></path></svg>
+                                    </span>
+                                  </div>
+                                </td>
+                              </tr>
+
+
+
+
+
+                                    <tr data-expand="expand5" style="display:none;">
+                          <td colspan="10" class="expandable__row">
+                            <table class="file__table"> 
+                              <tr>
+                                <td>
+                                  <div class="source__main">
+                                    <div class="check__input check__main--child ">
+                                      <label class="checkbox js-table-checkbox">
+                                        <div class="checkbox__box">
+                                          <input class="checkbox__input" type="checkbox"><span class="checkbox__checkmark"></span>
+                                        </div>
+                                      </label>
+                                    </div>
+                                    <div class="source__file">
+                                      <span><img src="images/source1.svg" alt="source"></span>
+                                      <p>samplelongnameoffile.txt</p>
+                                    </div>
+                                    <div class="source__picker">
+                          <span>our:</span>
+                          <p style="display:none;">4322</p>
+                          <input type="text" value="4322">
+                          <div class="small__drop custom__select" >
+                            <div class="select js-select">
+                                <button class="select__label js-select-label" data-selected="select1" type="button" data-drop-info="drop9"><span>c.w.h</span>
+                                </button>
+                                <div class="select__dropdown js-select-dropdown" data-drop-info="drop9">
+                                  <div class="custom-scroll select__dropdown-scroll" data-select-simplebar="">
+                                    <div class="select__options js-select-options">
+                                      <div class="select__option js-select-option is-selected" data-option="select1"><span>USD</span></div>
+                                      <div class="select__option js-select-option" data-option="select2"><span>EUR</span></div>
+                                      <div class="select__option js-select-option" data-option="select3"><span>EUR</span></div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <input class="select__input js-select-input" type="hidden" value="select1">
+                              </div>
+                          </div>
+                        </div>
+                                  </div>
+                                </td>
+                                <td class="trash__row">
+                                  <div class="remove__source">
+                                    <a href="#"><img src="images/trashicon.svg" alt="trashicon"></a>
+                                  </div>
+                                </td>
+                              </tr>
+
+                              <tr>
+                                <td>
+                                  <div class="source__main">
+                                    <div class="check__input check__main--child ">
+                                      <label class="checkbox js-table-checkbox">
+                                        <div class="checkbox__box">
+                                          <input class="checkbox__input" type="checkbox"><span class="checkbox__checkmark"></span>
+                                        </div>
+                                      </label>
+                                    </div>
+                                    <div class="source__file">
+                                      <span><img src="images/source1.svg" alt="source"></span>
+                                      <p>samplelongnameoffile.txt</p>
+                                    </div>
+                                    <div class="source__picker">
+                          <span>our:</span>
+                          <p>4322</p>
+                          <input type="text" value="4322" style="display:none;">
+                          <div class="small__drop custom__select inactive__select" >
+                            <div class="select js-select">
+                                <button class="select__label js-select-label" data-selected="select1" type="button" data-drop-info="drop10"><span>c.w.h</span>
+                                </button>
+                                <div class="select__dropdown js-select-dropdown" data-drop-info="drop10">
+                                  <div class="custom-scroll select__dropdown-scroll" data-select-simplebar="">
+                                    <div class="select__options js-select-options">
+                                      <div class="select__option js-select-option is-selected" data-option="select1"><span>USD</span></div>
+                                      <div class="select__option js-select-option" data-option="select2"><span>EUR</span></div>
+                                      <div class="select__option js-select-option" data-option="select3"><span>EUR</span></div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <input class="select__input js-select-input" type="hidden" value="select1">
+                              </div>
+                          </div>
+                        </div>
+                                  </div>
+                                </td>
+                                <td class="trash__row">
+                                  <div class="remove__source">
+                                    <a href="#"><img src="images/trashicon.svg" alt="trashicon"></a>
+                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                            </table>
+                          </div>
+                        </div>
+                    </div>
+              </div>
+              <div class="source__settings">
+                <div class="task__info">
+                  <div class="head__task">
+                    <p>Not finished</p>
+                    <div class="task__status">
+                      <p>Task overdue</p>
+                    </div>
+                  </div>
+                  <div class="task__content">
+                    <div class="task__el">
+                      <p>TG deadline</p>
+                      <div class="deadline__droppable empty__deadline">
+                          <p>2019-04-06<span><svg width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.855314 13.1636C0.662908 13.1632 0.479488 13.0821 0.349807 12.94C0.217734 12.799 0.152106 12.6083 0.169415 12.4159L0.337461 10.5681L8.10046 2.80788L10.5265 5.23322L2.76554 12.9928L0.917731 13.1608C0.896468 13.1629 0.875205 13.1636 0.855314 13.1636ZM11.0107 4.74829L8.58539 2.32295L10.0402 0.868157C10.1688 0.739361 10.3434 0.666992 10.5255 0.666992C10.7075 0.666992 10.8821 0.739361 11.0107 0.868157L12.4655 2.32295C12.5943 2.4516 12.6667 2.62618 12.6667 2.80822C12.6667 2.99027 12.5943 3.16484 12.4655 3.29349L11.0114 4.7476L11.0107 4.74829Z" fill="#E7A400"></path></svg></span></p>
+                        </div>
+                    </div>
+                    <div class="task__el">
+                      <p>Created on</p>  
+                      <div class="created__time">
+                        <p>2019-04-06 <span>23:20</span></p>
+                      </div>
+                    </div>
+                    <div class="task__el">
+                      <p>Created by</p>  
+                      <div class="task__employee">
+                        <div class="employee__image">
+                          <img src="images/workersmall.png" alt="profilepict">
+                        </div>
+                        <div class="employee__info">
+                          <p>Justas Jasaitis</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="task__el response__task">
+                      <p>Responsible:</p>
+                      <div class="responsible__task">
+                        <div class="elem__responsible">
+                          <div class="responsible__image">
+                            <img src="images/workersmall.png" alt="workersmall">
+                          </div>
+                          <div class="responsible__name">
+                            <p>Justas Jasaitis</p>
+                          </div>
+                        </div>
+                        <div class="elem__responsible">
+                          <div class="responsible__image">
+                            <img src="images/workersmall.png" alt="workersmall">
+                          </div>
+                          <div class="responsible__name">
+                            <p>Justas Jasaitis</p>
+                          </div>
+                        </div>
+                        <div class="elem__responsible">
+                          <div class="responsible__image">
+                            <img src="images/workersmall.png" alt="workersmall">
+                          </div>
+                          <div class="responsible__name">
+                            <p>Justas Jasaitis</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="task__el task__tags">
+                      <p>Tags <a href="#"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="7.00049" width="2" height="16" fill="#0E7D7D"/><rect x="16.0005" y="7" width="2" height="16" transform="rotate(90 16.0005 7)" fill="#0E7D7D"/></svg>  </a></p>
+                     <div class="tags__wrapper">
+                       </div> 
+                    </div>
+                    <div class="task__el">
+                      <p>Client</p>
+                      <div class="client__task">
+                        <div class="client__image">
+                          <img src="images/workersmall.png" alt="workersmall">
+                        </div>
+                        <div class="client__name">
+                          <p>Robertas Baltru.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="task__el response__task">
+                      <p>Responsible:</p>
+                      <div class="responsible__task">
+                        <div class="elem__responsible">
+                          <div class="responsible__image">
+                            <img src="images/workersmall.png" alt="workersmall">
+                          </div>
+                          <div class="responsible__name">
+                            <p>Justas Jasaitis</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="task__el">
+                      <p>Profit:</p>
+                      <div class="profit__task">
+                        <p>5 EUR</p>
+                        <span>+50%</span>
+                      </div>
+                    </div>
+
+                    <div class="task__el task__profit">
+                      <p>Profit:</p>
+                      <div class="documents__task">
+                        <div class="elem__document">
+                          <a href="#">QUO-001</a>
+                        </div>
+                        <div class="elem__document">
+                          <a href="#">INV-001</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="add__plan">
+                  <a href="#">Add plan or note <span><img src="images/addplan.svg" alt="addplan"></span></a>
+                  <div class="add__plan--dropdown">
+                    <form action="">
+                        <textarea name="" placeholder="Type note" id="" cols="30" rows="10"></textarea>
+                        <input type="submit" value="Save">
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+        </div>
+    </div>
+	</div>
+
+
+
+  <div class="registrations__modal" style="display:none;">
+        <a href="#">
+          <img src="images/svg/svg-sprite/symbol/closemodal.svg" alt="closemodal">
+        </a>
+        <div class="inner__registrations">
+          <form action="">
+            <h2>Registartions</h2>
+            <div class="registrations__table">
+              <p>Job uploaded time: <span>1h 23m 23sec</span></p>
+              <div class="table__container">
+                <table>
+                <tr>
+                  <th>Worker</th>
+                  <th>Offered Deadline</th>
+                  <th class="center__registrations">Projects</th>
+                  <th></th>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="worker__registrations">
+                      <div class="regis__image">
+                        <img src="images/regisicon.png" alt="regisicon">
+                      </div>
+                      <div class="regis__text">
+                        <p>Lukas Baranauskas</p>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="deadline__registrations">
+                      <p>2019-04-06 <span>23:20</span></p>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="projects__registrations">
+                      <p>0</p>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="controls__registrations">
+                      <div class="controls__unviewed">
+                        <div class="reject__button">
+                          <a href="#">Reject</a>
+                        </div>
+                        <div class="assign__button">
+                          <a href="#">Assign project <span><img src="images/assignbutton.svg" alt="assignbutton"></span></a>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="worker__registrations">
+                      <div class="regis__image">
+                        <img src="images/regisicon.png" alt="regisicon">
+                      </div>
+                      <div class="regis__text">
+                        <p>Lukas Baranauskas</p>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="deadline__registrations">
+                      <p>2019-04-06 <span>23:20</span></p>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="projects__registrations">
+                      <p>0</p>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="controls__registrations">
+                      <div class="controls__unviewed">
+                        <div class="reject__button">
+                          <a href="#">Reject</a>
+                        </div>
+                        <div class="assign__button">
+                          <a href="#">Assign project <span><img src="images/assignbutton.svg" alt="assignbutton"></span></a>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <div class="worker__registrations">
+                      <div class="regis__image">
+                        <img src="images/regisicon.png" alt="regisicon">
+                      </div>
+                      <div class="regis__text">
+                        <p>Lukas Baranauskas</p>
+                      </div>
+                    </div>
+                  </td>
+                  <td> </td>
+                  <td>
+                    <div class="projects__registrations">
+                      <p>0</p>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="controls__registrations">
+                      <div class="controls__viewed">
+                        <div class="seen__info">
+                          <p><img src="images/seenicon.svg" alt="seenicon"> Seen</p>
+                        </div>
+                        <div class="seen__details">
+                          <p>2019-02-23 <span>15:00</span></p>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="worker__registrations">
+                      <div class="regis__image">
+                        <img src="images/regisicon.png" alt="regisicon">
+                      </div>
+                      <div class="regis__text">
+                        <p>Lukas Baranauskas</p>
+                      </div>
+                    </div>
+                  </td>
+                  <td> </td>
+                  <td>
+                    <div class="projects__registrations">
+                      <p>0</p>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="controls__registrations">
+                      <div class="controls__viewed">
+                        <div class="seen__info">
+                          <p><img src="images/seenicon.svg" alt="seenicon"> Seen</p>
+                        </div>
+                        <div class="seen__details">
+                          <p>2019-02-23 <span>15:00</span></p>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+              </table>
+              </div>
+            </div>
+          </form>
+          <div class="registrations__close">
+          <a href="#" class="button button--border-surfie-green">Close</a>
+        </div>
+        </div>
+    </div>
+
+
+    <div class="note__modal" style="display:none;">
+      <div class="note__inner">
+        <div class="note__form">
+          <h2>Add your custom text</h2>
+          <form action="">
+            <div class="title__note">
+              <img src="images/docimage.svg" alt="docimage">
+              <input type="text" placeholder="Title (not required)">
+            </div>
+            <div class="message__note">
+              <textarea name="" id="" cols="30" rows="10" placeholder="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in"></textarea>
+            </div>
+            <div class="controls__note">
+              <input type="submit" value="Done">
+              <a href="#">Cancel</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+	<script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+  <script src="scripts/main.js"></script>
+  <script src="scripts/vendor.js"></script>
+  <script src="scripts/custom.js"></script>
+</body>
+</html>

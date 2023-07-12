@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+  <link rel="stylesheet" href="css/vendor.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/f982e94d70.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="css/upload.css">
+  
+</head>
+<body>
+	<div class="overlay"></div>
+	<header>
+    <div class="container-fluid">
+      <div class="outer__header">
+        <div class="left__header">
+          <div class="logo__wrapper">
+            <a href="#">
+              <img src="images/logo.svg" alt="logo">
+              CRM NAME
+            </a>
+          </div>
+          <div class="search__header">
+            <form action="">
+              <input type="text" placeholder="Search in CRM">
+              <input type="submit" value="">
+            </form>
+          </div>
+        </div>
+        <div class="right__header">
+          <div class="header__communication">
+            <a href="#">
+              <img src="images/svg/svg-sprite/symbol/communication.svg" alt="communication">
+              <span class="communication__title">3</span>
+            </a>
+          </div>
+          <div class="header__notification">
+             <div class="dropdown notifications-dropdown js-dropdown" data-dropdown="notifications">
+                    <div class="dropdown__toggle notifications-dropdown__toggle" data-dropdown-toggle="notifications">
+                      <div class="notifications-dropdown__toggle-icon">
+                        <svg class="svg-icon svg-icon--surfie-green" width="24" height="25">
+                          <use href="images/svg/svg-sprite/symbol/sprite.svg#bell" x="0" y="0"></use>
+                        </svg>
+                      </div>
+                      <div class="notifications-dropdown__toggle-title">4</div>
+                    </div>
+                    <div class="dropdown__box notifications-dropdown__box">
+                      <div class="notifications-dropdown__wrap">
+                        <div class="notifications-dropdown__header">
+                          <div class="content-header">
+                            <div class="content-header__title">
+                              <h3>Notifications</h3>
+                            </div>
+                            <div class="content-header__close">
+                              <div class="close" data-dropdown-close="notifications">
+                                <svg class="svg-icon svg-icon--alto" width="15" height="15">
+                                  <use href="images/svg/svg-sprite/symbol/sprite.svg#close" x="0" y="0"></use>
+                                </svg>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="custom-scroll notifications-dropdown__scroll" data-simplebar="data-simplebar">
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam consequuntur dolore deserunt earum, nihil neque quibusdam sapiente, praesentium quisquam eaque expedita autem? Ab distinctio placeat quos velit adipisci harum libero.</p>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam consequuntur dolore deserunt earum, nihil neque quibusdam sapiente, praesentium quisquam eaque expedita autem? Ab distinctio placeat quos velit adipisci harum libero.</p>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam consequuntur dolore deserunt earum, nihil neque quibusdam sapiente, praesentium quisquam eaque expedita autem? Ab distinctio placeat quos velit adipisci harum libero.</p>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam consequuntur dolore deserunt earum, nihil neque quibusdam sapiente, praesentium quisquam eaque expedita autem? Ab distinctio placeat quos velit adipisci harum libero.</p>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam consequuntur dolore deserunt earum, nihil neque quibusdam sapiente, praesentium quisquam eaque expedita autem? Ab distinctio placeat quos velit adipisci harum libero.</p>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam consequuntur dolore deserunt earum, nihil neque quibusdam sapiente, praesentium quisquam eaque expedita autem? Ab distinctio placeat quos velit adipisci harum libero.</p>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam consequuntur dolore deserunt earum, nihil neque quibusdam sapiente, praesentium quisquam eaque expedita autem? Ab distinctio placeat quos velit adipisci harum libero.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          </div>
+          <div class="language__picker">
+            <div class="select js-select select--transparent header__dropdown-lang">
+                        <button class="select__label js-select-label" data-selected="lt" type="button"><img src="images/icons/planet.svg" /><span>LT</span>
+                        </button>
+                        <div class="select__dropdown js-select-dropdown">
+                          <div class="custom-scroll select__dropdown-scroll" data-select-simplebar="data-select-simplebar">
+                            <div class="select__options js-select-options">
+                              <div class="select__option js-select-option" data-option="en"><img src="images/icons/planet.svg" /><span>EN</span></div>
+                              <div class="select__option js-select-option" data-option="lt"><img src="images/icons/planet.svg" /><span>LT</span></div>
+                            </div>
+                          </div>
+                        </div>
+                        <input class="select__input js-select-input" type="hidden" />
+                      </div>
+          </div>
+          <div class="profile__header">
+            <div class="dropdown user-dropdown js-dropdown" data-dropdown="user">
+                    <div class="dropdown__toggle user-dropdown__toggle" data-dropdown-toggle="user">
+                      <div class="user-dropdown__toggle-avatar">
+                        <div class="avatar">
+                          <figure></figure>
+                        </div>
+                      </div>
+                      <div class="user-dropdown__toggle-name">Justas</div>
+                      <div class="user-dropdown__toggle-chevron">
+                        <svg class="svg-icon svg-icon--surfie-green" width="9" height="5">
+                          <use href="images/svg/svg-sprite/symbol/sprite.svg#chevron-down" x="0" y="0"></use>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="dropdown__box user-dropdown__box">
+                      <div class="user-dropdown-menu">
+                        <div class="user-dropdown-menu__items">
+                          <div class="user-dropdown-menu__item"><a class="user-dropdown-menu__link " href="settings-page.html">
+                              <div class="user-dropdown-menu__icon">
+                                <svg class="svg-icon svg-icon--surfie-green" width="18" height="18">
+                                  <use href="images/svg/svg-sprite/symbol/sprite.svg#cog" x="0" y="0"></use>
+                                </svg>
+                              </div>
+                              <div class="user-dropdown-menu__title">Settings</div>
+                            </a></div>
+                          <div class="user-dropdown-menu__item"><a class="user-dropdown-menu__link" href="#">
+                              <div class="user-dropdown-menu__icon">
+                                <svg class="svg-icon svg-icon--surfie-green" width="18" height="14">
+                                  <use href="images/svg/svg-sprite/symbol/sprite.svg#log-out" x="0" y="0"></use>
+                                </svg>
+                              </div>
+                              <div class="user-dropdown-menu__title">Log Out</div>
+                            </a></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          </div>
+        </div>
+        <div class="menu__button--header">
+          <a href="#">
+            <span></span>
+            <span></span>
+            <span></span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+	<div class="side__menu">
+    <div class="head__side">
+      <ul>
+        <li>
+          <a href="freelancer-opportunities.html">
+            <span class="image__side"><img src="images/headicon1.svg" alt="headicon"></span>
+            Opportunities
+            <span class="numb__span">3</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="menu__main--side">
+      <p>Workpage</p>
+      <ul>
+        <li>
+          <a href="projects-page.html">
+            <span class="image__side"><img src="images/headicon2.svg" alt="headicon"></span>
+            My projects
+            <span class="numb__span">12</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="image__side"><img src="images/headicon3.svg" alt="headicon"></span>
+            My tasks
+            <span class="numb__span">11</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="image__side"><img src="images/headicon4.svg" alt="headicon"></span>
+            My inquiries
+            <span class="numb__span">5</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="image__side"><img src="images/headicon5.svg" alt="headicon"></span>
+            My orders
+            <span class="numb__span">2</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="menu__main--side">
+      <ul>
+        <li>
+          <a href="employers-page.html">
+            <span class="image__side"><img src="images/headicon6.svg" alt="headicon"></span>
+            Employers
+            
+          </a>
+        </li>
+        <li>
+          <a href="create-client.html">
+            <span class="image__side"><img src="images/headicon8.svg" alt="headicon"></span>
+            Clients
+            
+          </a>
+        </li>
+        <li >
+          <a href="employers-page.html">
+            <span class="image__side"><img src="images/headicon9.svg" alt="headicon"></span>
+            Statistics
+            
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="menu__main--side">
+      <ul>
+        <li>
+          <a href="#">
+            <span class="image__side"><img src="images/headicon10.svg" alt="headicon"></span>
+            Accounting
+            
+          </a>
+        </li>
+        <li >
+          <a href="#">
+            <span class="image__side"><img src="images/headicon11.svg" alt="headicon"></span>
+            KOT tools
+            
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+	<div class="content__main">
+		<div class="menu__small">
+			<a href="#"><i class="fas fa-ellipsis-h"></i></a>
+		</div>
+		 <div class="permissions-page__wrap">
+      <div class="container">
+        <div class="permissions-page__heading">
+          <div class="permissions-page__heading-title">
+            <a href="#"><svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M-0.000112319 6L6.46143 0L6.46143 12L-0.000112319 6Z" fill="#0E7D7D"/>
+            </svg></a>
+            <h2 class="text-surfie-green">Permissions</h2>
+          </div>
+          <div class="settings-page__heading-status">
+            <h3>Account status: </h3>
+            <div class="approved__wrapper">
+              <span class="text-caribbean-green">Approved</span><span class="icon-inline">
+                <svg class="svg-icon svg-icon--caribbean-green" width="15" height="13">
+                  <use href="images/svg/svg-sprite/symbol/sprite.svg#check" x="0" y="0"></use>
+                </svg></span>
+            </div>
+          </div>
+        </div>
+        <div class="permissions-page__catalog">
+          <div class="catalog">
+            <div class="permissions__catalog">
+              <div class="catalog__header">
+              <div class="catalog__tabs tabs js-tabs">
+                <div class="catalog__tab js-tabs-tab is-active" data-tab="admin">
+                  <div class="catalog__tab-title">Admin</div>
+                </div>
+                <div class="catalog__tab js-tabs-tab " data-tab="projectManager">
+                  <div class="catalog__tab-title">Project manager</div>
+                </div>
+                <div class="catalog__tab js-tabs-tab " data-tab="administrator">
+                  <div class="catalog__tab-title">Administrator</div>
+                </div>
+                <div class="catalog__tab js-tabs-tab " data-tab="salesManager">
+                  <div class="catalog__tab-title">Sales manager</div>
+                </div>
+              </div>
+
+            </div>
+            <div class="catalog__right">
+                <div class=" upload__block controls__permissions">
+                        <div class="wrap-btn-add">
+                            <div class="btn-add">
+                                <div class="btn-add__header">
+                                    <div class="btn-add__input btn-add__input_add">
+                                        <label for="file-upload" class="btn-add__input-label">
+                                        </label>
+                                        <div class="create__position" style="display:none;">
+                                          <div class="dropdown__box manage-position-dropdown__box">
+                                            <div class="manage-position-dropdown__title">
+                                              <h5>Create position</h5>
+                                            </div>
+                                            <div class="manage-position-dropdown__input">
+                                              <input class="input input--border-alto" type="text" placeholder="Position name" />
+                                            </div>
+                                            <div class="manage-position-dropdown__button">
+                                              <button class="button button--fluid button--surfie-green" type="button" data-dropdown-close="manage-position-dropdown">Create
+                                              </button>
+                                            </div>
+                                          </div>
+                                      </div>
+                                    </div>
+                                    <div class="wrap__another--drop">
+                                      <div class="btn-add__icon add__small--dropdown"></div>
+                                    <div class="btn-add__dropdown">
+                                      <ul class="btn-add__list">
+                                          <li class="btn-add__item">
+                                              <a href="" class="btn-add__link ">Edit</a>
+                                          </li>
+                                          <li class="btn-add__item">
+                                              <a href="" class="btn-add__link ">Delete</a>
+                                          </li>
+                                      </ul>
+                                  </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+              </div>
+            </div>
+            <div class="catalog__box">
+              <div class="catalog__content">
+                <div class="catalog__content-item tabs__content js-tabs-content is-active" data-content="admin">
+                  <div class="catalog__content-wrap">
+                    <div class="row">
+                      <div class="col-12 col-md-6 col-xl-4 col-xxl-3 offset-0  mb-40">
+                        <div class="column-group column-group--sm">
+                          <div class="column-group__item">
+                            <h4>Actions</h4>
+                          </div>
+                          <div class="column-group__item">
+                            <div class="permissions-box js-permissions-box">
+                              <div class="permissions-box__header">
+                                <div class="permissions-box__title">
+                                  <h5>Project window:</h5>
+                                </div>
+                                <div class="permissions-box__toggle is-active">
+                                  <div class="permissions-box__toggle-title">
+                                    <h6 class="text-surfie-green">Hide</h6>
+                                  </div>
+                                  <div class="permissions-box__toggle-icon">
+                                    <svg class="svg-icon svg-icon--surfie-green" width="8" height="6">
+                                      <use href="images/svg/svg-sprite/symbol/sprite.svg#chevron-down" x="0" y="0"></use>
+                                    </svg>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="permissions-box__content">
+                                <div class="permissions-box__content-item">
+                                  <label class="checkbox">
+                                    <div class="checkbox__box">
+                                      <input class="checkbox__input" type="checkbox" checked><span class="checkbox__checkmark"></span>
+                                    </div><span class="checkbox__name">Add comment</span>
+                                  </label>
+                                </div>
+                                <div class="permissions-box__content-item">
+                                  <label class="checkbox">
+                                    <div class="checkbox__box">
+                                      <input class="checkbox__input" type="checkbox" checked><span class="checkbox__checkmark"></span>
+                                    </div><span class="checkbox__name">Remove comment</span>
+                                  </label>
+                                </div>
+                                <div class="permissions-box__content-item">
+                                  <label class="checkbox">
+                                    <div class="checkbox__box">
+                                      <input class="checkbox__input" type="checkbox" checked><span class="checkbox__checkmark"></span>
+                                    </div><span class="checkbox__name">Add new task</span>
+                                  </label>
+                                </div>
+                                <div class="permissions-box__content-item">
+                                  <label class="checkbox">
+                                    <div class="checkbox__box">
+                                      <input class="checkbox__input" type="checkbox"><span class="checkbox__checkmark"></span>
+                                    </div><span class="checkbox__name">Send to client</span>
+                                  </label>
+                                </div>
+                                <div class="permissions-box__content-item">
+                                  <label class="checkbox">
+                                    <div class="checkbox__box">
+                                      <input class="checkbox__input" type="checkbox"><span class="checkbox__checkmark"></span>
+                                    </div><span class="checkbox__name">Cancel project</span>
+                                  </label>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12 col-md-6 col-xl-4 col-xxl-3 mb-40">
+                        <div class="column-group column-group--sm">
+                          <div class="column-group__item">
+                            <h4>Visibility</h4>
+                          </div>
+                          <div class="column-group__item">
+                            <div class="permissions-box js-permissions-box">
+                              <div class="permissions-box__header">
+                                <div class="permissions-box__title">
+                                  <h5>Project window:</h5>
+                                </div>
+                                <div class="permissions-box__toggle is-active">
+                                  <div class="permissions-box__toggle-title">
+                                    <h6 class="text-surfie-green">Hide</h6>
+                                  </div>
+                                  <div class="permissions-box__toggle-icon">
+                                    <svg class="svg-icon svg-icon--surfie-green" width="8" height="6">
+                                      <use href="images/svg/svg-sprite/symbol/sprite.svg#chevron-down" x="0" y="0"></use>
+                                    </svg>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="permissions-box__content">
+                                <div class="permissions-box__content-item">
+                                  <label class="checkbox">
+                                    <div class="checkbox__box">
+                                      <input class="checkbox__input" type="checkbox" checked><span class="checkbox__checkmark"></span>
+                                    </div><span class="checkbox__name">Add comment</span>
+                                  </label>
+                                </div>
+                                <div class="permissions-box__content-item">
+                                  <label class="checkbox">
+                                    <div class="checkbox__box">
+                                      <input class="checkbox__input" type="checkbox" checked><span class="checkbox__checkmark"></span>
+                                    </div><span class="checkbox__name">Remove comment</span>
+                                  </label>
+                                </div>
+                                <div class="permissions-box__content-item">
+                                  <label class="checkbox">
+                                    <div class="checkbox__box">
+                                      <input class="checkbox__input" type="checkbox" checked><span class="checkbox__checkmark"></span>
+                                    </div><span class="checkbox__name">Add new task</span>
+                                  </label>
+                                </div>
+                                <div class="permissions-box__content-item">
+                                  <label class="checkbox">
+                                    <div class="checkbox__box">
+                                      <input class="checkbox__input" type="checkbox"><span class="checkbox__checkmark"></span>
+                                    </div><span class="checkbox__name">Send to client</span>
+                                  </label>
+                                </div>
+                                <div class="permissions-box__content-item">
+                                  <label class="checkbox">
+                                    <div class="checkbox__box">
+                                      <input class="checkbox__input" type="checkbox"><span class="checkbox__checkmark"></span>
+                                    </div><span class="checkbox__name">Cancel project</span>
+                                  </label>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12 col-md-6 col-xl-4 col-xxl-3 mb-40">
+                        <div class="column-group column-group--sm">
+                          <div class="column-group__item">
+                            <h4>Worker Summary</h4>
+                          </div>
+                          <div class="column-group__item">
+                            <div class="permissions-box js-permissions-box">
+                              <div class="permissions-box__header">
+                                <div class="permissions-box__title">
+                                  <h5>Project window:</h5>
+                                </div>
+                                <div class="permissions-box__toggle is-active">
+                                  <div class="permissions-box__toggle-title">
+                                    <h6 class="text-surfie-green">Hide</h6>
+                                  </div>
+                                  <div class="permissions-box__toggle-icon">
+                                    <svg class="svg-icon svg-icon--surfie-green" width="8" height="6">
+                                      <use href="images/svg/svg-sprite/symbol/sprite.svg#chevron-down" x="0" y="0"></use>
+                                    </svg>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="permissions-box__content">
+                                <div class="permissions-box__content-item">
+                                  <label class="checkbox">
+                                    <div class="checkbox__box">
+                                      <input class="checkbox__input" type="checkbox" checked><span class="checkbox__checkmark"></span>
+                                    </div><span class="checkbox__name">Add comment</span>
+                                  </label>
+                                </div>
+                                <div class="permissions-box__content-item">
+                                  <label class="checkbox">
+                                    <div class="checkbox__box">
+                                      <input class="checkbox__input" type="checkbox" checked><span class="checkbox__checkmark"></span>
+                                    </div><span class="checkbox__name">Remove comment</span>
+                                  </label>
+                                </div>
+                                <div class="permissions-box__content-item">
+                                  <label class="checkbox">
+                                    <div class="checkbox__box">
+                                      <input class="checkbox__input" type="checkbox" checked><span class="checkbox__checkmark"></span>
+                                    </div><span class="checkbox__name">Add new task</span>
+                                  </label>
+                                </div>
+                                <div class="permissions-box__content-item">
+                                  <label class="checkbox">
+                                    <div class="checkbox__box">
+                                      <input class="checkbox__input" type="checkbox"><span class="checkbox__checkmark"></span>
+                                    </div><span class="checkbox__name">Send to client</span>
+                                  </label>
+                                </div>
+                                <div class="permissions-box__content-item">
+                                  <label class="checkbox">
+                                    <div class="checkbox__box">
+                                      <input class="checkbox__input" type="checkbox"><span class="checkbox__checkmark"></span>
+                                    </div><span class="checkbox__name">Cancel project</span>
+                                  </label>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="catalog__content-item tabs__content js-tab-content" data-content="projectManager"></div>
+                <div class="catalog__content-item tabs__content js-tab-content" data-content="administrator"></div>
+                <div class="catalog__content-item tabs__content js-tab-content" data-content="salesManager"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+	</div>
+	<script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+  <script src="scripts/main.js"></script>
+  <script src="scripts/vendor.js"></script>
+  <script src="scripts/custom.js"></script>
+</body>
+</html>

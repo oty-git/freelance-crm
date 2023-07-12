@@ -1,0 +1,74 @@
+.file-drop-dragging-over-frame  .upload-content__drag-drop,
+.file-drop-dragging-over-frame  .upload-content__files
+{
+  border: 3px dashed #7AB8EC;
+  background: #FBFDFF;
+}
+.tabs__content, .modal{
+  display: block;
+}
+.upload__block .upload-content__files-list .form-group img{
+  min-width: 28px;
+  height: 30px;
+  display: inline-block;
+  position: relative;
+  z-index: 2;
+
+}
+.inner__modal .row__form.col_4{
+  grid-template-columns: repeat(4, 1fr);
+}
+.button__label{
+  position: relative;
+  cursor: pointer;
+  padding: 0 0 0 15px;
+  background-color: #FFF;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  color: #9D9D9D;
+  white-space: nowrap;
+  overflow: hidden;
+  height: 100%;
+}
+.application-page__form, .application-form{
+  margin-bottom: 2rem;
+}
+.input-range__input{
+  background: #EBEBEF;
+}
+.no-wrap{
+  flex-wrap: nowrap;
+}
+.tag__modal.modal__wrapper>a,
+.modal__wrapper.tax__modal>a,
+.education__modal.modal__wrapper>a
+{
+  opacity: 1;
+}
+.react-responsive-modal-container .react-responsive-modal-modal .tag__inner--modal,
+.react-responsive-modal-container .react-responsive-modal-modal .tax__inner--modal,
+.react-responsive-modal-container .react-responsive-modal-modal .education__inner--modal
+{
+  right: 0;
+}
+.ReactCollapse--collapse {
+  transition: height 1000ms;
+}
+.menu__main--side>ul li.current__menu>a {
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+.overflow-visible{
+  overflow: visible!important;
+}
+@media (max-width:1440px){
+  .overflow-visible{
+    overflow: visible!important;
+  }
+}
