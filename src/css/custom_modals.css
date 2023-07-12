@@ -1,45 +1,45 @@
 header {
-    z-index: 1001;
+  z-index: 1001;
 }
 
-.modal__wrapper.tax__modal .tax__buttons>.add__tax,
-.tag__modal.modal__wrapper .tag__buttons>.add__tag{
-    max-width:195px;
-    margin-right:15px;
+.modal__wrapper.tax__modal .tax__buttons > .add__tax,
+.tag__modal.modal__wrapper .tag__buttons > .add__tag {
+  max-width: 195px;
+  margin-right: 15px;
 }
-.modal__create{
-    background: rgba(0,0,0,.7)!important;
+.modal__create {
+  background: rgba(0, 0, 0, 0.7) !important;
 }
 
-.no-margin-bottom{
-    margin-bottom: 0!important;
+.no-margin-bottom {
+  margin-bottom: 0 !important;
 }
 
 .permissions__field .permissions__dropdown {
-    top: 45px;
+  top: 45px;
 }
 
 @keyframes customEnterModalAnimation {
-    0% {
-        opacity: 0;
-        transform: translateX(200px);
-        transition: all 300ms ease-in-out;
-    }
-    100% {
-        opacity: 1;
-        transform: translateX(0);
-        transition: all 300ms ease-in-out;
-    }
+  0% {
+    opacity: 0;
+    transform: translateX(200px);
+    transition: all 300ms ease-in-out;
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+    transition: all 300ms ease-in-out;
+  }
 }
 @keyframes customLeaveModalAnimation {
-    0% {
-        opacity: 1;
-        transform: translateX(0);
-        transition: all 300ms ease-in-out;
-    }
-    100% {
-        opacity: 0;
-        transform: translateX(200px);
-        transition: all 300ms ease-in-out;
-    }
+  0% {
+    opacity: 1;
+    transform: translateX(0);
+    transition: all 300ms ease-in-out;
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(200px);
+    transition: all 300ms ease-in-out;
+  }
 }

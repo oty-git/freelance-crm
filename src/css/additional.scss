@@ -1,7 +1,7 @@
-.select__dropdown-scroll{
+.select__dropdown-scroll {
   overflow: scroll;
 }
-.center__stat .float__fee{
+.center__stat .float__fee {
   z-index: 10;
   bottom: 100%;
   top: inherit;
@@ -16,34 +16,35 @@
   -webkit-box-pack: flex-start;
   -ms-flex-pack: flex-start;
   justify-content: flex-start;
-  &-important{
-    -webkit-box-pack: flex-start!important;
-    -ms-flex-pack: flex-start!important;
-    justify-content: flex-start!important;
+  &-important {
+    -webkit-box-pack: flex-start !important;
+    -ms-flex-pack: flex-start !important;
+    justify-content: flex-start !important;
   }
 }
-.justify-space-between{
+.justify-space-between {
   justify-content: space-between;
 }
-.justify-space-around{
+.justify-space-around {
   justify-content: space-around;
 }
-.pb1{
+.pb1 {
   padding-bottom: 1rem;
 }
-.pb2{
+.pb2 {
   padding-bottom: 2rem;
 }
-.pt1{
+.pt1 {
   padding-top: 1rem;
 }
-.pt2{
+.pt2 {
   padding-top: 2rem;
 }
-.pt3{
+.pt3 {
   padding-top: 3rem;
 }
-input,button {
+input,
+button {
   &[type="submit"] {
     -moz-appearance: button;
     -webkit-appearance: button;

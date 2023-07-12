@@ -1,15 +1,15 @@
-import './App.css';
-import {Switch, Route} from 'react-router-dom';
-import routes from './routes';
-import {useDispatch} from 'react-redux';
+import "./App.css";
+import { Switch, Route } from "react-router-dom";
+import routes from "./routes";
+import { useDispatch } from "react-redux";
 import {
   getLanguages,
   getCurrencies,
   getServices,
   getAppLanguages,
-} from './store/actions/init';
-import React, {useEffect} from 'react';
-import PrivateRoute from './PrivateRoute';
+} from "./store/actions/init";
+import React, { useEffect } from "react";
+import PrivateRoute from "./PrivateRoute";
 
 const App = () => {
   const dispatch = useDispatch();
